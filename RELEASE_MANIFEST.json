@@ -1,7 +1,7 @@
 {
   "manifest_schema": "1.0",
-  "release": "1.0.0",
-  "generated_at_utc": "2026-10-15T16:21:50+00:00",
+  "release": "1.0.1",
+  "generated_at_utc": "2026-10-15T16:30:05+00:00",
   "generator": "scripts/generate_release_manifest.py",
   "scope": "All source, documentation, manifests and benchmark artifacts under this repository, excluding RELEASE_MANIFEST.json and generated/cache directories.",
   "excluded_directories": [
@@ -29,7 +29,7 @@
     }
   },
   "file_count": 738,
-  "total_bytes": 177046316,
+  "total_bytes": 177046954,
   "files": [
     {
       "path": ".gitattributes",
@@ -38,8 +38,8 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "bytes": 742,
-      "sha256": "aeced67ce3d0d34caef67a9c3badfce9062e0cd90a81542fdd2c617947d59c4a"
+      "bytes": 755,
+      "sha256": "7f5ce102c866fcb5813dcce1ea6b747811ac19c71502e19d8bf00f859ad4545a"
     },
     {
       "path": ".gitignore",
@@ -49,12 +49,12 @@
     {
       "path": "CITATION.cff",
       "bytes": 845,
-      "sha256": "823e71f7f925b3067d6576037769847b7335a77870b42d1e9ab5650ee3fcd78c"
+      "sha256": "01d572bad06cef0fb11134fa91618aebcb07cae6fff2c00ae320bbe097aca9b6"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 863,
-      "sha256": "46236523d98d6c2cfd76621f8e3b6e523d4dc54b621fd289d9cd8cd708a9e029"
+      "bytes": 871,
+      "sha256": "040268eec0ebc980dd49b58de4a3be15ecd64ef157c55f4d47f21d6a1b7b521d"
     },
     {
       "path": "LICENSE",
@@ -63,13 +63,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 7413,
-      "sha256": "f1ab6cdbabb7d518614f0a762ac366e3ef57fe96222bfb75c65bccb18004b73f"
+      "bytes": 7421,
+      "sha256": "2405505970fd171dddddc71ea392e726deeb0e784c6bff81be48dede05e901bb"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 2163,
-      "sha256": "a83ecc01aa6024a42b95f8bd783ea8e01e47d825d5c1b87a25c5e671dc0bd2c5"
+      "bytes": 2454,
+      "sha256": "f06b8a8f610d2fb00ed66c2e2b2a05ca2e41c9115e4b688c878dd316eae36929"
     },
     {
       "path": "RELEASE_SCOPE.md",
@@ -84,7 +84,7 @@
     {
       "path": "causal_benchmark_synthetic/CITATION.cff",
       "bytes": 527,
-      "sha256": "324ebe2652424b9d0b7f5baf16ac071bc29ea4ef6303d6adbe085d1c185e9390"
+      "sha256": "25c5fe98e248bdcf7af3983a087327efde208fe56a9573a06659fe2ef688bb0b"
     },
     {
       "path": "causal_benchmark_synthetic/LICENSE",
@@ -3713,8 +3713,8 @@
     },
     {
       "path": "scripts/generate_release_manifest.py",
-      "bytes": 3115,
-      "sha256": "3d3cbba40595da3291f39773c85cd557896b3e226b0761c20615ef0986c4ad8c"
+      "bytes": 3433,
+      "sha256": "6182616995734d2525478b67b5a4a1eb6d9d097f50b07cd68498ca6c4fbeae88"
     },
     {
       "path": "scripts/validate_release.py",

@@ -7,7 +7,7 @@ authors:
     given-names: Segundo Alejandro
 repository-code: "https://github.com/jlincovilc-pe/causal-benchmark-ecosystem"
 license: MIT
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-15
 keywords:
   - causal inference

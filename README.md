@@ -41,7 +41,7 @@ Para ejecutar las pruebas del paquete:
 ```bash
 python -m pip install -r requirements-dev.txt
 python -m pip install -e causal_benchmark_zoo
-python -m pytest -q causal_benchmark_zoo/tests
+(cd causal_benchmark_zoo && python -m pytest -q tests)
 ```
 
 Para probar el CLI del zoo:

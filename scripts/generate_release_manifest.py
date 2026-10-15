@@ -7,6 +7,7 @@ import hashlib
 import importlib.metadata
 import json
 import platform
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,6 +16,14 @@ ROOT = Path(__file__).resolve().parents[1]
 EXCLUDED_DIRS = {".git", ".pytest_cache", "__pycache__", ".ipynb_checkpoints", "build", "dist", ".benchmarks"}
 EXCLUDED_SUFFIXES = {".pyc", ".pyo"}
 DEFAULT_OUTPUT = ROOT / "RELEASE_MANIFEST.json"
+
+
+def release_version() -> str:
+    citation = (ROOT / "CITATION.cff").read_text(encoding="utf-8")
+    match = re.search(r"^version:\s*([^\s]+)", citation, flags=re.MULTILINE)
+    if not match:
+        raise RuntimeError("CITATION.cff does not declare a release version")
+    return match.group(1)
 
 
 def include(path: Path, output: Path) -> bool:
@@ -62,7 +71,7 @@ def main() -> int:
 
     payload = {
         "manifest_schema": "1.0",
-        "release": "1.0.0",
+        "release": release_version(),
         "generated_at_utc": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         "generator": "scripts/generate_release_manifest.py",
         "scope": "All source, documentation, manifests and benchmark artifacts under this repository, excluding RELEASE_MANIFEST.json and generated/cache directories.",

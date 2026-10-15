@@ -1,4 +1,9 @@
-# Notas de cierre del release 1.0.0
+# Notas de cierre del release 1.0.1
+
+La versión 1.0.1 corrige la orden de pytest del release inicial: la suite se
+ejecuta desde `causal_benchmark_zoo/` para evitar que el directorio contenedor
+oculte el paquete Python instalado. El tag `v1.0.0` conserva el historial
+original; use `v1.0.1` para la edición corregida.
 
 Fecha de preparación: 2026-10-15. El alcance está definido en [`RELEASE_SCOPE.md`](./RELEASE_SCOPE.md) y las huellas de archivos en [`RELEASE_MANIFEST.json`](./RELEASE_MANIFEST.json).
 
@@ -8,7 +13,7 @@ Los siguientes comandos se ejecutaron en un entorno virtual nuevo (`/tmp/causal_
 
 ```text
 python scripts/validate_release.py       -> 43 escenarios; 0 errores; 16 advertencias
-python -m pytest -q causal_benchmark_zoo/tests -> 30 passed
+(cd causal_benchmark_zoo && python -m pytest -q tests) -> 30 passed
 python -m causal_benchmark_zoo.fetch validate-all -> 4 manifests válidos
 python -m causal_benchmark_zoo.fetch list -> 4 benchmarks registrados
 ```
