@@ -1,0 +1,13 @@
+# Direct dependencies used in the clean release verification on Python 3.13.13.
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+networkx==3.7
+pyarrow==23.0.1
+PyYAML==6.0.3
+jsonschema==4.26.0
+joblib==1.6.0
+pytest==8.4.2
+setuptools==80.10.2
+wheel==0.48.0

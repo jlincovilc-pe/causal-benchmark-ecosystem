@@ -1,0 +1,3725 @@
+{
+  "manifest_schema": "1.0",
+  "release": "1.0.0",
+  "generated_at_utc": "2026-10-15T16:21:50+00:00",
+  "generator": "scripts/generate_release_manifest.py",
+  "scope": "All source, documentation, manifests and benchmark artifacts under this repository, excluding RELEASE_MANIFEST.json and generated/cache directories.",
+  "excluded_directories": [
+    ".benchmarks",
+    ".git",
+    ".ipynb_checkpoints",
+    ".pytest_cache",
+    "__pycache__",
+    "build",
+    "dist"
+  ],
+  "environment": {
+    "python": "3.13.13",
+    "implementation": "CPython",
+    "platform": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+    "packages": {
+      "numpy": "2.4.2",
+      "pandas": "2.3.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.6.1",
+      "networkx": "3.6.1",
+      "PyYAML": "6.0.3",
+      "jsonschema": "4.26.0",
+      "pytest": "8.4.2"
+    }
+  },
+  "file_count": 738,
+  "total_bytes": 177046316,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 325,
+      "sha256": "1e637c7413a2145b4afcc63e9ac098767094ac053cb4c29e47cc9e570e8097b6"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 742,
+      "sha256": "aeced67ce3d0d34caef67a9c3badfce9062e0cd90a81542fdd2c617947d59c4a"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 816,
+      "sha256": "9d5a2c3b8fbb1880380575c58c040306eca777f8e6161783fb34f58a4f6803d4"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 845,
+      "sha256": "823e71f7f925b3067d6576037769847b7335a77870b42d1e9ab5650ee3fcd78c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 863,
+      "sha256": "46236523d98d6c2cfd76621f8e3b6e523d4dc54b621fd289d9cd8cd708a9e029"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1091,
+      "sha256": "0825b15dacd840e33901754bf678031a1aebb863cd1281196ffed77cad154e6d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7413,
+      "sha256": "f1ab6cdbabb7d518614f0a762ac366e3ef57fe96222bfb75c65bccb18004b73f"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 2163,
+      "sha256": "a83ecc01aa6024a42b95f8bd783ea8e01e47d825d5c1b87a25c5e671dc0bd2c5"
+    },
+    {
+      "path": "RELEASE_SCOPE.md",
+      "bytes": 1332,
+      "sha256": "940350ac1bd662fc59bfa391b21f53fd3ef7a82e6f9a44162301ae796914ae45"
+    },
+    {
+      "path": "causal_benchmark_synthetic/BENCHMARK_SCHEMA.md",
+      "bytes": 3473,
+      "sha256": "7a5021e08292ae0f6d69bcc1ab9678d6e64523f8403d5a361e8e0b4ea77eb56b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/CITATION.cff",
+      "bytes": 527,
+      "sha256": "324ebe2652424b9d0b7f5baf16ac071bc29ea4ef6303d6adbe085d1c185e9390"
+    },
+    {
+      "path": "causal_benchmark_synthetic/LICENSE",
+      "bytes": 1091,
+      "sha256": "0825b15dacd840e33901754bf678031a1aebb863cd1281196ffed77cad154e6d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/README.md",
+      "bytes": 19795,
+      "sha256": "e68767209619c48c6d26c50023f1299994f0b537651f57b44a6b44bb4932d396"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/data.csv",
+      "bytes": 14217645,
+      "sha256": "5dc9f627ae5c40a838af4c4236adea8624b52dc81f8295818b14e6b46ad40612"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/graph_adjmatrix.csv",
+      "bytes": 6055,
+      "sha256": "6abf33d1f7bbbfa87883d172668829b7e2819373352cfa58991e6efb902adab1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/graph_edges.csv",
+      "bytes": 670,
+      "sha256": "a25e7bdb34eef847f4050f74546e81890232892d4353fb8012c23d26acbc3f8a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/identification.json",
+      "bytes": 504,
+      "sha256": "5a0a2717ef1bee0addd768ee78a29c1708593641ce023db1a0796acd25a50416"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/interventions.json",
+      "bytes": 409,
+      "sha256": "9f08424125db662772bbaff99cc8797c31e38e817393fc644a5768f23ff3aae5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/metadata.json",
+      "bytes": 855,
+      "sha256": "92e8b33ad6b6ef79501062ae60035a2b68fcbb9b6a856a10e7e367a8b19c6801"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/observed_test.csv",
+      "bytes": 2835960,
+      "sha256": "f31759a337c7dd00015ad40f8f78fa207e3259c91e9520fc9277cc113ea66108"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/observed_train.csv",
+      "bytes": 8504653,
+      "sha256": "aaafd377f92540d4c283d5aba5bd5de7ff08a1fbf16ed97a02c1a569620a9ad8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/observed_validation.csv",
+      "bytes": 2834811,
+      "sha256": "07a756a7eba408781e1ce5a4634b572d06196c249642a76abbf2580f60e7d409"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/scm.json",
+      "bytes": 9390,
+      "sha256": "89f50c6f115e2018e27df7745be3cc2b4f8a3c63931ce34733ce7b3e4734d7bd"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/scorecard.json",
+      "bytes": 939,
+      "sha256": "b63be8f26a809908a7b9c210eb21735ad509bcf9a10d2ae46386bec82c0c3ac0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/scorecard.md",
+      "bytes": 763,
+      "sha256": "76f3447a4b145a3bd38ea82a52d5a578863cefefbe97dc47e3c923a94003a09f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/splits.json",
+      "bytes": 1691,
+      "sha256": "513b8533cac8e79feb94e679219e2d9b64f0eeb0672261ebd0a87c8120c2cb79"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/alarm/variable_mapping.csv",
+      "bytes": 1421,
+      "sha256": "dd70346c0a82c4ef9854356c179d7ba527b6501d7b31847baca87cdbe3c0a6d0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/data.csv",
+      "bytes": 3870716,
+      "sha256": "be7b6016d52e91014a603c8f76425510d771ac71949d3386cdf005d91d603bf1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/graph_adjmatrix.csv",
+      "bytes": 1969,
+      "sha256": "67c82b51124df43b41f8c7162c40e000ac06733ef97902fafbd091d1f18bed4f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/graph_edges.csv",
+      "bytes": 488,
+      "sha256": "51b7ffe58d67851df1728becbbfbdd50d34e4ad5db02799b64bf32a38bc6110c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/identification.json",
+      "bytes": 504,
+      "sha256": "d85770d70511bae5fa52852684f9237bebf4f7ab5d5530d49b7e66d58009bb5f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/interventions.json",
+      "bytes": 409,
+      "sha256": "875b9a37c67a4c4fbee17af95e2919f8f6573db935b88b59b5d776e8b286336d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/metadata.json",
+      "bytes": 864,
+      "sha256": "22fd7f08884ec04130a18a8ad8522f1d475cb39d45bb5ca28acd2a223ff95224"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/observed_test.csv",
+      "bytes": 774347,
+      "sha256": "9ea48efa70fbb201cabef51743d0affc1d93c59d0b9c4a7bfa1f678535a8f347"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/observed_train.csv",
+      "bytes": 2323624,
+      "sha256": "116619eda6fd8febfd55cade8400b48ded3933e5735f4a1ef360410a8d0964c4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/observed_validation.csv",
+      "bytes": 774623,
+      "sha256": "7395646be41e45dc61e826f069c44837d76d0107423f9e241e60072df9507b57"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/scm.json",
+      "bytes": 5733,
+      "sha256": "135fc5d6d47534dcd363d27bd7d7ea87d07feb50e5a1303d04b76a1030fe57f0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/scorecard.json",
+      "bytes": 910,
+      "sha256": "23c2df310aa460532601cc3300fcb720f9b3140d95a14932388487e5fd971b96"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/scorecard.md",
+      "bytes": 734,
+      "sha256": "ea9e973605fa4e325cdb718010b85958e10580756a8b15292ccc9a40a72c1a8c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/splits.json",
+      "bytes": 1687,
+      "sha256": "7a493e99510c8de99e0502aa50c6e30c369c08f8a3a777d333da9a178bc0ac9c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/child/variable_mapping.csv",
+      "bytes": 837,
+      "sha256": "20c5ccf68d0fba3c09e81b4e84b76ca3f919d3347bbca79a135ebcabf598251f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/data.csv",
+      "bytes": 422776,
+      "sha256": "e19784ff2a48f30b565f4777d3eea158900e492ae077f8930bbe15bc2502be9e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/data_public.csv",
+      "bytes": 381873,
+      "sha256": "321fcf214c92e6c26a83e972fa97c57edd529097d3e1236388d4c74353964a66"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/identification.json",
+      "bytes": 1061,
+      "sha256": "2dd3106b2db523c6ae67858f1ccaafe1df23a4c1577376eb3a9bec5efc38a3cc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/interventions.json",
+      "bytes": 891,
+      "sha256": "89d1769ff24bf17cf129c029adebb2e5314f9b252ac48da254e4c32f4f1244f9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/metadata.json",
+      "bytes": 1120,
+      "sha256": "415fc8655ee534191777bf8549423e67596f22a61471162846d555c9f7a95850"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/observed.csv",
+      "bytes": 375568,
+      "sha256": "0dbf980335e65ca4b5ffb933ea34d88410d5609af187020f4b6756b542af1147"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/observed_test.csv",
+      "bytes": 76053,
+      "sha256": "9d33a1711fb924384cfbfa014201ddbf83589d1b65aa07a1f002f62d9231f86f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/observed_train.csv",
+      "bytes": 227084,
+      "sha256": "9af867184cb26c7f528e792661fae1836ea342c42010fa79ea27a8c67b80825d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/observed_validation.csv",
+      "bytes": 75617,
+      "sha256": "520c6f6144d5bfdaea0a9fda60f7193586fda9978682dd8f3b20598bd901413e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/scm.json",
+      "bytes": 4964,
+      "sha256": "0ccb06c9acdbe23e7336ab34a933bdb73ded0a6ddcf4b8e347a89602e141e7d4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/scorecard.json",
+      "bytes": 1245,
+      "sha256": "1343a32d2e7b38e9150851f749fc066dcbdb38f2ad20a378b63b1ff7d2a694cc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/scorecard.md",
+      "bytes": 1084,
+      "sha256": "fee6a815d17e1ff45f2b287f6434c39febd3a97dcc95505eb0165a85aa392d87"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/splits.json",
+      "bytes": 3666,
+      "sha256": "12fffddb08918cc0c8ff8a04ee14918eb719095fbeb1199af2ee8c2ac4c0cdcd"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/truth.csv",
+      "bytes": 58565,
+      "sha256": "420ee098961444e219d0f9b46e99a49bb54820004308e6b7f64fb01ca4717ba0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/truth_test.csv",
+      "bytes": 11787,
+      "sha256": "4180cf351bd0cd8f3633871e6ae5684e6abe1f162d9e804dc0518154d04aa3f2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/truth_train.csv",
+      "bytes": 35119,
+      "sha256": "a4df58fcfd3b814a109d29616c1fbe6705428684ca101c7be436eefb1d5860ba"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/ihdp/truth_validation.csv",
+      "bytes": 11716,
+      "sha256": "b647d0e4f1a6fe231cec79d5eb89afa4d3f63113abc39e3cd943fbed659494e2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/data.csv",
+      "bytes": 10401090,
+      "sha256": "424d62c6f61f23f792ca69038a8470a93f45059ce1687fa0f901c67cd2986278"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/graph_adjmatrix.csv",
+      "bytes": 3449,
+      "sha256": "8026f4b0dd6d9b8bf6868a505d1f3ba9b60339a82a878a051fccf7b81dc6e06c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/graph_edges.csv",
+      "bytes": 1038,
+      "sha256": "50d1bb3ef8e080d4b9ae2bae14cf23e417774a233234d313895fbb0806e499c3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/identification.json",
+      "bytes": 508,
+      "sha256": "e8b4da993c3cdb3ce2fbcbfd43a79f67fc051e0d1a150da8288ea2f6f868800b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/interventions.json",
+      "bytes": 413,
+      "sha256": "9a6441557d41454dc0b0dc7e563bf86550479102f609b641ea08ebb2de101a20"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/metadata.json",
+      "bytes": 851,
+      "sha256": "dfd04e7a641663fd42309f9a0aa5457f2a7fae340da72d5e12ee0df77ae06647"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/observed_test.csv",
+      "bytes": 2079315,
+      "sha256": "7f920564d016508ffa18a5e41facc1677366d4b68423fe9fdb949607e1980b44"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/observed_train.csv",
+      "bytes": 6237268,
+      "sha256": "ae6baa2a0801defddff964250d17c28a42278b79e1283862d12605595c668226"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/observed_validation.csv",
+      "bytes": 2078965,
+      "sha256": "e0596ce1afb5a7474b2bd16daf4d44d7bdb391c4405b39579e0948617e7652d2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/scm.json",
+      "bytes": 8791,
+      "sha256": "d3828c837afd59d30b5770c413003c7433b00bc5e84157526cd4758b50cf3e64"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/scorecard.json",
+      "bytes": 974,
+      "sha256": "315edf48ad2e6421d42191c431ee7a3301b6e3d8fa34f0f8213b41715b8b78c4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/scorecard.md",
+      "bytes": 794,
+      "sha256": "e11e2c4f28bef078917af4e4b29fa946656b7131abfcf529a179fad7e42809af"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/splits.json",
+      "bytes": 1695,
+      "sha256": "bbfb52171b021520fd4bdf27da77d81456ddf5d30c677100bca40d65bbd2c1a5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/insurance/variable_mapping.csv",
+      "bytes": 1155,
+      "sha256": "95b3af6bc87e2059989964597d85e78d011fbb562198583d8a8fa3614923591d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/data.csv",
+      "bytes": 216260,
+      "sha256": "2d567f746ecd856166a4724dfdb8f2dd3fc6b29e802bb4f806ac4d2539a96598"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/data_public.csv",
+      "bytes": 121058,
+      "sha256": "0e81a21dacc5e28d8c7d3354a322f9dd6be101219de540924f65ad8184e63ed5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/identification.json",
+      "bytes": 805,
+      "sha256": "7aee878891b7f13938deb1620f2baf1e23042975642b1910b1639501f823023c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/interventions.json",
+      "bytes": 889,
+      "sha256": "6ca9f6ffeb018cabf13123b9f54c03eac0cafce945793111c18a5a8e5ead65cc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/metadata.json",
+      "bytes": 1119,
+      "sha256": "a2ba13cddd2f8702de495885aa0b9dee582b6714d9fdd47e4e9c0364b549692a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/observed.csv",
+      "bytes": 120673,
+      "sha256": "fb435379276f9617e300c73df6c3b645a1ceba09c64e9260fd16ea5d92f7fe3c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/observed_test.csv",
+      "bytes": 25733,
+      "sha256": "2093dbef51d20b43cc71a2d8b8de0ed6e53cabb14be0fcbf8729126355f3792c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/observed_train.csv",
+      "bytes": 76941,
+      "sha256": "cd5a772ead64f4165891e4213605de241aeee81cc1ad8ad68cad7495fe5d7ae2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/observed_validation.csv",
+      "bytes": 25625,
+      "sha256": "cee91dab6987ee3ca77855a0b007238a373bef0970e0327989d3778f0e4f2bc6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/scm.json",
+      "bytes": 2681,
+      "sha256": "cdeca4c5a1951c0cd9b2fffe0d64d1c4cf30d63ac70ea06a61e0474486a81372"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/scorecard.json",
+      "bytes": 1250,
+      "sha256": "8c27cd651728a26779ae5f973d05acb2a80991c0f86530c6c761df3ae596fbe3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/scorecard.md",
+      "bytes": 1089,
+      "sha256": "e8660e6226525bebe2de7e431f3963c0f196d87f0f7186d860c54677b574cc93"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/splits.json",
+      "bytes": 3669,
+      "sha256": "101274c23c9c9747d9857889070f0aef601186b07e759693cba2c984378d6112"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/truth.csv",
+      "bytes": 137179,
+      "sha256": "9a0c39120fd3e733560908e7cf164d554ecbc8034b748360b750ccc3669a5625"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/truth_test.csv",
+      "bytes": 27517,
+      "sha256": "d1b928f4202fa43a52ce64bd720dd8a37c95b9ed3dde40d46976e0d6fb1820af"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/truth_train.csv",
+      "bytes": 82318,
+      "sha256": "8572d26e47b47dc11a25912af2056ff0cbd2d1924d6cc19ed00c1d37e710b17e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/jobs/truth_validation.csv",
+      "bytes": 27378,
+      "sha256": "27e981d3228ee97bb40ab1c2ec353c6d2160222c5edf162abede925f69e474e1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/data.csv",
+      "bytes": 1557888,
+      "sha256": "0d38d674db4bec2f4dd01804b6f310eb8659788728c41483f93d4a44a3063bf6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/graph_adjmatrix.csv",
+      "bytes": 579,
+      "sha256": "28e6c0e5a128dd8d556380aef6dd16fd35ff901af3470da7b16a33c9f9e8e7dc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/graph_edges.csv",
+      "bytes": 165,
+      "sha256": "f22eddd64d89d2693246c8588cc8042ff4233389a771181691ccc6cc71e6a20d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/identification.json",
+      "bytes": 504,
+      "sha256": "a0f341d9fad3371ab6a00dafd0f5dd4dbc6505d5f5f4cd5bc951443c67e02cda"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/interventions.json",
+      "bytes": 409,
+      "sha256": "33f56a0bfee98a78f93ff250611de76fd5d8778f11486f0fd1f7bce7d4817928"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/metadata.json",
+      "bytes": 1819,
+      "sha256": "908d2c75619bb997031fe52874ed80f9389562c59382dac5a09f25bdd3e2b178"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/observed_test.csv",
+      "bytes": 313544,
+      "sha256": "9a8cc8790e4a45a7cb77256f31ed532ea75ef804da6c6ad74e97cdfc6b89aefd"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/observed_train.csv",
+      "bytes": 940001,
+      "sha256": "e99523b2c96ba720d35ba4b5e2b2850488f9527445a1ab9c9f4e12112801d97a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/observed_validation.csv",
+      "bytes": 313270,
+      "sha256": "93fd5f9359b6e60e9a5f60c6c29c653d7b006de8f9343ca123c3e36a8c732d6d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/scm.json",
+      "bytes": 3677,
+      "sha256": "60e40a1d5ea8db96f5090e661546b025ab853accb985dc51e89179e44d24a028"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/scorecard.json",
+      "bytes": 933,
+      "sha256": "e4a169abe250e7910ae0678626b4c778f94921dc8ddbdd941227cd7acf0f6c8b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/scorecard.md",
+      "bytes": 757,
+      "sha256": "6962b70413dfd68617cac98a31ecbdb8ce664f47178f64cb1a2e6c87ff90efc4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/splits.json",
+      "bytes": 1729,
+      "sha256": "5df8e9be28d0b11389fa8da1f9501fc760eb0217412858e21fb19fde56e47c32"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/sachs/variable_mapping.csv",
+      "bytes": 365,
+      "sha256": "9452716422bc7acbea3f522c4b794acf5691807dad009001f7b43fa4210ad2db"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/data.csv",
+      "bytes": 625183,
+      "sha256": "f118c4d79e75413812503071edf062e259ab002c1d0ff8cd63e47c4e1435b2f1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/data_public.csv",
+      "bytes": 625183,
+      "sha256": "f118c4d79e75413812503071edf062e259ab002c1d0ff8cd63e47c4e1435b2f1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/identification.json",
+      "bytes": 617,
+      "sha256": "ec961b6634ace0e78cf31fc72b672128365dfced63c34a26ebba10b9b445c0c9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/interventions.json",
+      "bytes": 522,
+      "sha256": "90c969732491c7a78c43b45f79eeb5fb1c9ee048ae38b3ec1fb12454b65d94fa"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/metadata.json",
+      "bytes": 1307,
+      "sha256": "e43661077b2ecbfb28ad2091c93c507ffdb41fd6fe45a474a4ef1f7779268008"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/observed.csv",
+      "bytes": 623266,
+      "sha256": "257ea6c32ac7a170b272f9de18111138c9f4ae0cdd4b49d9ed6b0c09ed14e446"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/observed_test.csv",
+      "bytes": 136154,
+      "sha256": "38a3264e0a53dce670a401e07266cc77502c31aa3ec189e330bde2aeeaf3c92d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/observed_train.csv",
+      "bytes": 408414,
+      "sha256": "3a0a479d0a84782f5303b80edbc94615be1bfc73f856657be2d867a1abc99309"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/observed_validation.csv",
+      "bytes": 136199,
+      "sha256": "38f1bbf7dc9c025199a9f17283c38e82be0305d7c9c68c046edd66855b3507d2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/scm.json",
+      "bytes": 2191,
+      "sha256": "79ab3c03b8fa5fa7f2e2bdb4f65dfd01fbc7c06e88d6d7306fb74ba5a521fea6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/scorecard.json",
+      "bytes": 392,
+      "sha256": "5d34ebca952427a988a336b0dceb07f3ddd5e97dc60a184d25a8b6154adc9690"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/scorecard.md",
+      "bytes": 281,
+      "sha256": "7d23ce15bcb2c7937e7ffa7779f80bd7e22136c9c013b78d52fdb5273652869b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/real/twins/splits.json",
+      "bytes": 2981,
+      "sha256": "46583c68c8429f92a71d71245ded68c93a61337e33753d5f3b34bacd0eb028f5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/data.csv",
+      "bytes": 294706,
+      "sha256": "5322536cde2a0354cc284e8c8763a802547b07e72bc5f6ffaca20b345147e136"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/graph_adjmatrix.csv",
+      "bytes": 1001,
+      "sha256": "e99364c81c44f85e94a6e411c717066f52c704a06a535a635fd659ffc665351d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/graph_edges.csv",
+      "bytes": 107,
+      "sha256": "35e3106cec85af16c57a8cf1112d360a94fe405bb29d5d11136fb554e3cb6a3a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/identification.json",
+      "bytes": 532,
+      "sha256": "c4357cddd2dbf2d2c916ebec6497ecabb3c759991e79e8388c0b7cd3a2769d13"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/interventions.json",
+      "bytes": 437,
+      "sha256": "79356455420fcf1dae6770150599faa3a7c1002c2c940e78d4bb148802d5a26f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/metadata.json",
+      "bytes": 248,
+      "sha256": "b8f3f1a58df4b9b529f7bc1335539a50c69828dfea69e3d13238e5500d0e0333"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/observed_test.csv",
+      "bytes": 58435,
+      "sha256": "4a3a41ce2f9969b7c6bf04771f7c1ee6c98ed52d2ebcb43b1c452f43161d4840"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/observed_train.csv",
+      "bytes": 175100,
+      "sha256": "588791db6a43eeba2e1276c5afc756646d069c16d39b015a9913d45eaa007e0a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/observed_validation.csv",
+      "bytes": 58452,
+      "sha256": "6b7dfed8cbddc5be81de27a9eb90c372884e1cb347b3f2f43dfe43a98579981e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/scm.json",
+      "bytes": 4253,
+      "sha256": "88cdedb8ac1df93ec4ed0eeb25c4c4b4978fedadee037018fb16260cf3c98c8e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/scorecard.json",
+      "bytes": 990,
+      "sha256": "580864a2fb3ed61229c0578b859abfce8bbcd576278e436bb5c57cead6daa64d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/scorecard.md",
+      "bytes": 786,
+      "sha256": "81b1bc8b1fed26836ff4e7c859799a633846891baffb35db755989c58ef90b27"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/splits.json",
+      "bytes": 1706,
+      "sha256": "2c05e29bd8de764f620e6bc3a6dc8e3827d68e2ee8a3c563eb2b411e20f911dc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/high_collinearity/variable_mapping.csv",
+      "bytes": 459,
+      "sha256": "4c01a459d76dd8400fc8b9a93ee4b658b4b1c8239dd85174a6c49086509293a1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/data_full.csv",
+      "bytes": 388762,
+      "sha256": "beb1d9e413ca0e1cdd32a70ca07760cc02b460ff3bc721e26e2df2be38d40fbf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/data_observed.csv",
+      "bytes": 349538,
+      "sha256": "baacf6ab40745e46e2df1ef18d733d8a86f1f3ad6919c7ce82e8d52dd9d3d488"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/full.csv",
+      "bytes": 388762,
+      "sha256": "beb1d9e413ca0e1cdd32a70ca07760cc02b460ff3bc721e26e2df2be38d40fbf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/identification.json",
+      "bytes": 642,
+      "sha256": "8197b32f4021074c498a44a56d01edd2b68cfcb628843ab74d5445aec57dc901"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/interventions.json",
+      "bytes": 541,
+      "sha256": "ab0665f5fdb1954e8a8d7d5a129e4942771955693d128d7a0a95f60a925c8067"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/metadata.json",
+      "bytes": 775,
+      "sha256": "df6a80fb5d00a818ff3754c019e99173d431916d243749d361ec48642c76ff8a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/observed.csv",
+      "bytes": 349538,
+      "sha256": "baacf6ab40745e46e2df1ef18d733d8a86f1f3ad6919c7ce82e8d52dd9d3d488"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/observed_test.csv",
+      "bytes": 70735,
+      "sha256": "afe5baf6511347aa6f748dc5e55a892bf20432b37ee3eb8287affb2557c1f8ef"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/observed_train.csv",
+      "bytes": 212242,
+      "sha256": "65164252f4e4aa96fea66b44f389ca49c300c10bbe254b99a28c5a8a51c7b22e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/observed_validation.csv",
+      "bytes": 70792,
+      "sha256": "b8423270b482c77e85ef81e57895640e0df43c1f71adf5138683771a861ce299"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/scm.json",
+      "bytes": 2275,
+      "sha256": "ecd990ef845526d2ca2c84e8220c78d0677d9c9d25f6aeabfdcd9c6441185f04"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/scorecard.json",
+      "bytes": 437,
+      "sha256": "92765b4dc3cd9dc80b145d06759f68fc2f2d64bd80864f1c2cc38ef0a35db74b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/scorecard.md",
+      "bytes": 309,
+      "sha256": "811ea801fce6ec802d096f2c5e7738a9647d7affbb736e6a09127f9ce5d4b87d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/splits.json",
+      "bytes": 3458,
+      "sha256": "c46d4e0f4974bab57d75329df10ddfb0c68613b388d220e97489e6ff189c7db1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/truth.csv",
+      "bytes": 122934,
+      "sha256": "fe9c584d1261ef766ba2ed5d43f82c9972a7ea4a0a33aa39f384a31fdff9428b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/truth_test.csv",
+      "bytes": 24557,
+      "sha256": "0c2d99ff1c149eb9527a92dc70c0c1b709025b4cd900f9f86cc66055c99d146c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/truth_train.csv",
+      "bytes": 73760,
+      "sha256": "e917e775aa0920470f504267c70450f838e1439412a5264ed16a207dd0419de2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/latent_confounder/truth_validation.csv",
+      "bytes": 24614,
+      "sha256": "db2ad074c5b737039edc68fa5e5bc9204df273d22a4620e2dd90838c4e93ec48"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/data.csv",
+      "bytes": 175190,
+      "sha256": "44493e87830ba2af9cd5c064db3a67b74eca30dd7da72c8ed22b4dbe07dc3a17"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/graph_adjmatrix.csv",
+      "bytes": 181,
+      "sha256": "4f45d5c39233875cf3449d338a7c20da3c08491cb2a2a58cafddf2d5fbb776b2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/graph_edges.csv",
+      "bytes": 38,
+      "sha256": "c280cd824f614c534c75cff05bae45070fdf12c2930ef53ab0cf241a4d985dc7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/identification.json",
+      "bytes": 510,
+      "sha256": "d7c29369eff560706a47042c1869e5b593303d6dcc424d6e17f209bc055a7792"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/interventions.json",
+      "bytes": 426,
+      "sha256": "fc5085b9ea9490875705f1bf71f6d5c08d00ea9d1d4d309892c370685866977e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/metadata.json",
+      "bytes": 256,
+      "sha256": "7655d7b249e192c47dec448e8ea77215d32e627148186339e88f2098d968f67c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/observed_test.csv",
+      "bytes": 35846,
+      "sha256": "bea16eafa174ca11a7e379e131faf4e28416259a2e86a8c5e79cb79ee8e428b2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/observed_train.csv",
+      "bytes": 107409,
+      "sha256": "0ce4a0baa56ef843591d9e7498443f784f1c79ee97cb16450c6e1b34a6799897"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/observed_validation.csv",
+      "bytes": 35818,
+      "sha256": "92d6797263a8d62cf93a83ab9fc3eacf3e2c7418d11700307c31b9d83b7bde08"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/scm.json",
+      "bytes": 2154,
+      "sha256": "845ab48dc3f427b29893cd46a65bbc36f1b1f06602d4557979736be15f991707"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/scorecard.json",
+      "bytes": 961,
+      "sha256": "7eb93f11d0db420f2aa28bc883cc501647bafa5c4945ecf0228238df1821c774"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/scorecard.md",
+      "bytes": 767,
+      "sha256": "fc1738ad511db78881af5c699832dd141eca92011718ba4192428b81cc0176df"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/splits.json",
+      "bytes": 1699,
+      "sha256": "e29c56e3ef92db833578bef749172bd9ae4c13e1b461e0e8b8652485105fe644"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/edge_cases/m_graph/variable_mapping.csv",
+      "bytes": 201,
+      "sha256": "af0c3a83e10ae6afcc3009c88d69e1a1b7a921aa190e8a398b478f473283ea1e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/data.csv",
+      "bytes": 2828697,
+      "sha256": "19edaee3f9838d66fd790ea43189c5d1e1a46d6a75b87563ae306e71205669f2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/data_public.csv",
+      "bytes": 2554771,
+      "sha256": "a663c2603cbed4665f5060bc614a67a0ea1f2a37f394a9e96bff60277447d0e0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/identification.json",
+      "bytes": 1020,
+      "sha256": "5e8db0aa091abb5146f29b88319b661a9ef9867e46839ebb5f5cacef0dbb7d1e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/interventions.json",
+      "bytes": 897,
+      "sha256": "687feb7edb452041e1b2594c530b06e1b46116fee84c036bba87db8b741eac50"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/metadata.json",
+      "bytes": 330,
+      "sha256": "67e1d9024892c8d035298b7b9ddc4550db6630cbcc38d7b5e9197a1e5ee70eed"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/observed.csv",
+      "bytes": 2512678,
+      "sha256": "0925bb6d42f67d1cda5ac8096910c8fac07fca4d2a42835e2d974756e670197c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/observed_test.csv",
+      "bytes": 507242,
+      "sha256": "bec984821a00ed46d03daf499ec7d1cb4d2d8fa61e22d5564b2e7b4d300c8b2d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/observed_train.csv",
+      "bytes": 1521661,
+      "sha256": "16788d5e20de3809a745a7d041f459acb6056ae9720a613a484089dde7ae5555"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/observed_validation.csv",
+      "bytes": 507511,
+      "sha256": "88a6b32b4fb830c8917d2bdee4fe6afa95173063069d82c6c490da11ae7827b0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/scm.json",
+      "bytes": 4915,
+      "sha256": "10ace3608eec7e60762f7578cc32c6b0ec885139154dbb38377a87c224326507"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/scorecard.json",
+      "bytes": 1284,
+      "sha256": "59b2e012ce25d8560c9ea19ccb61d2e3264e21234e0636436d68945e281c622a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/scorecard.md",
+      "bytes": 1102,
+      "sha256": "9c0c8820dbc76f9a694de9ab08ff36bc9f4129e368bfa3f24cce50e0258e2a81"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/splits.json",
+      "bytes": 3620,
+      "sha256": "02966e2513b912daa6b55c070ebf61219b3da2a1550441c3862b71757c834058"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/truth.csv",
+      "bytes": 396234,
+      "sha256": "02f684d4034661a2a139810a82117f3044ecce388f2066c2b82576693dc34bf9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/truth_test.csv",
+      "bytes": 79208,
+      "sha256": "eb5bd8cda47e0a4112f5dd27802d5fa968258ed3ee9d0347aa32c11631cbc879"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/truth_train.csv",
+      "bytes": 237726,
+      "sha256": "23dee73f432c30453a42e8e34d37eba800debfa098319678d86b6f42657b276f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_large/truth_validation.csv",
+      "bytes": 79244,
+      "sha256": "908f6e055a597ddbd8d7f8fd70f95c4c7091f7224df85474cba4f3168a684a9d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/data.csv",
+      "bytes": 1131975,
+      "sha256": "8f54cbbb3d314e5bb3c2e17d3381e271835cfff19c76fbe9cda601a67ca67e1a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/data_public.csv",
+      "bytes": 1022435,
+      "sha256": "72409287814cf7f9300f5fd9523c14b3ed57f12540e16264807f614401300222"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/identification.json",
+      "bytes": 1021,
+      "sha256": "bb71d7c20917a3e1bd10fb40637d6d5b782cd8e08deeab0c7fb84413a1b395c0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/interventions.json",
+      "bytes": 898,
+      "sha256": "fc2966f359e96f1eda2e02ade2f8416d6ff98a5bf97640bb4a9f9258b3c016be"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/metadata.json",
+      "bytes": 330,
+      "sha256": "cb6a6716fa6813507a6fa0d063576229d341b4c85993f039e17a9eb0754325ee"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/observed.csv",
+      "bytes": 1005449,
+      "sha256": "a2b5b4a135d46ec100170ac32e1d7caaa9182f6d437199f5a64d0ebc7875b5b9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/observed_test.csv",
+      "bytes": 202948,
+      "sha256": "c96a9a847d4c649e32522ad8f111a3ce0edd19924118736d632d6cc289de87b9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/observed_train.csv",
+      "bytes": 608543,
+      "sha256": "b7756db43c5597bf5cf23afc785e64b679b060dbfc5b0fcf38a00ed9e7691e4a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/observed_validation.csv",
+      "bytes": 202920,
+      "sha256": "60ebf2a706a2797bcdff6ee4e00cba288125d62976c46fc6cbe9462e41131507"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/scm.json",
+      "bytes": 4917,
+      "sha256": "bafd3226b071f4db3bd8d6ef0ea93f7c52aefe59165820086d54e1a1cac2224b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/scorecard.json",
+      "bytes": 1294,
+      "sha256": "3681503fbd28979c1ef5b070e8636e6441ff9eba1e1a987eabc5fb7c524c87a4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/scorecard.md",
+      "bytes": 1111,
+      "sha256": "741e6c07be86f904f445696b8a2c06fc6a71870c8e61b0a52d1d9f51ba16cded"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/splits.json",
+      "bytes": 3631,
+      "sha256": "af3a9bb9447c2b031be7d013b038e8c48e553ccb68cbaae4bc4eb7ad5abfff7f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/truth.csv",
+      "bytes": 157854,
+      "sha256": "9ce1f1836e1b0ee61e058f19b5a55b7c4bc53a7d0d0216835e843a05e0173e4b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/truth_test.csv",
+      "bytes": 31596,
+      "sha256": "843ec1ffeec65ba7e31e939606b21e6723b3e39b721eb8811c9f27ba9c26b337"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/truth_train.csv",
+      "bytes": 94725,
+      "sha256": "40889fd122cc2fce66b4f54224b5b2446decf7079b2b45129011c6301a25128b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_medium/truth_validation.csv",
+      "bytes": 31555,
+      "sha256": "a7bc616e8d727263a0a4fec0247ff6ebee667a7bc825b163c155067c5b4ca0f6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/data.csv",
+      "bytes": 565814,
+      "sha256": "8cea153e0e74b922ad5f4cceac6bcecb60667e394fce19037e3ff70a29c648c0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/data_public.csv",
+      "bytes": 511060,
+      "sha256": "c5337e9a75bd5fdaf47bc8f16d4dd97eef1d280f67aa3afbf30aaaaee22d810a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/identification.json",
+      "bytes": 1020,
+      "sha256": "73ed8f040092253382ed939a638c36e1268042c5b50e1b59b2f173cfee6c51ba"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/interventions.json",
+      "bytes": 899,
+      "sha256": "280c1c3a1df2f09607990ed065d44a592d0b678f3ef9d50880eef57c47d1ba66"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/metadata.json",
+      "bytes": 330,
+      "sha256": "88e5118f565e5c4350d4905b75177db94822ee04774f55b8574e45cfbc6d6ce6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/observed.csv",
+      "bytes": 502645,
+      "sha256": "4e5447bc14c8ae26ed4b598e7663ad7090751a18b7535ec0fcba8cb1d8358d2d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/observed_test.csv",
+      "bytes": 101341,
+      "sha256": "861d44222e1286e8b69a50e6ecf8f103b83bf4c4002ac57e2a4b0ce25a12e5d5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/observed_train.csv",
+      "bytes": 303896,
+      "sha256": "8b2e63d3702f966aded59f74e29fd569829763ece8b2d29230c21501655ed9ad"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/observed_validation.csv",
+      "bytes": 101464,
+      "sha256": "4de0bdc1a1ede872609677cc467cafdf3b6a5fbc5ee13305934ba4155b4516a6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/scm.json",
+      "bytes": 4915,
+      "sha256": "d89b5842746cf3e80378f4acbbb54a20f76982fa67fecf2426d0c0b74c36f352"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/scorecard.json",
+      "bytes": 1289,
+      "sha256": "55257958ebb41a890aeba4f1ea8ee27b8c9373a8fbb4598a4695ed3903dd9c85"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/scorecard.md",
+      "bytes": 1107,
+      "sha256": "673b85541580334f62e678878c477acfe4409c5194ab8ca76d788266631b67dd"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/splits.json",
+      "bytes": 3609,
+      "sha256": "4d8e660d9033b510fd0a91d5de8298e39423113a5fc6648b94bdc3ef63ac654c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/truth.csv",
+      "bytes": 78378,
+      "sha256": "54b9f50fbe49d432c415ebe0dbf82d58255b74a3d5061354c9d21bfdb434cf28"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/truth_test.csv",
+      "bytes": 15693,
+      "sha256": "c5a2fcc621fa649d65dc0bb7d11c9b611a96af60ce0dae3f074990c93fc4830f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/truth_train.csv",
+      "bytes": 47021,
+      "sha256": "f485b34227009271432ce4772d555782a526cb67dcb8f58e9e21a2435881c5b6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/ihdp_small/truth_validation.csv",
+      "bytes": 15712,
+      "sha256": "810d38e59dbd0b04917d3be619fe574573d8f265249bf1668a3dd35cca8b1a9b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/data.csv",
+      "bytes": 250897,
+      "sha256": "190a39e404c7fa125003ca0b8601bd410d43143a18b55e9b3f60b619d1b3e015"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/data_public.csv",
+      "bytes": 140446,
+      "sha256": "828dc9d62bb876f07a5b55fd349c2ce47427ba46e8c6f1021eb61cbfede67d4f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/identification.json",
+      "bytes": 830,
+      "sha256": "c44784517edc15046498ef6675fcb8b5261ea4adb9c78a9a61a341dee3c481f1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/interventions.json",
+      "bytes": 900,
+      "sha256": "468ed7a5463c087eddaf7e1006abed8f58ce0bde91e5286b1aac4f23b94797d9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/metadata.json",
+      "bytes": 240,
+      "sha256": "330dff1b41a69d5294cabb0bb16ef3fb9d02961a755aa016aac1e2690fa2f0d1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/observed.csv",
+      "bytes": 140079,
+      "sha256": "63dfe67b9306a68065b6b4380d809b81b6389656dbe634479f74d277433e9067"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/observed_test.csv",
+      "bytes": 29848,
+      "sha256": "42f5a0e242a2fc1f66f2a40055bda19d551b58810faf7e30982c4fade800c50c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/observed_train.csv",
+      "bytes": 89373,
+      "sha256": "7b550031957a037f6a01e9d13118b7503fdc3499ea797bb318e657c1b0172985"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/observed_validation.csv",
+      "bytes": 29870,
+      "sha256": "4fd2d0bdad283bf8f7ef72ed80a0e8b1351b54514a582ac1ccf36e7c0e430b54"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/scm.json",
+      "bytes": 2670,
+      "sha256": "49046280120c4572e1d7780ae931a12266758822fdf2221c4d6d8ee307451270"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/scorecard.json",
+      "bytes": 1292,
+      "sha256": "2ec9d019ef2b46ef979a49c16ade045cec91c91da6578fb4e052951cccbd28b9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/scorecard.md",
+      "bytes": 1106,
+      "sha256": "4e7642afe75ca968a22cedfba6efd9eeacc6fcbc17c0c6d8534804c3afc274f9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/splits.json",
+      "bytes": 3611,
+      "sha256": "d80ae6ad9269f537a265c96fd8a12eb8176aca814f9f9c2eaa54bade23086e4d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/truth.csv",
+      "bytes": 159333,
+      "sha256": "c99e96ac6df6486bea36d0dd1fbbf0aef291650ce4990bc5e0800c9ab3841fe1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/truth_test.csv",
+      "bytes": 31915,
+      "sha256": "5009db6bd3004bc60802af7c06030bf7b94498dc3c726ffa94a1fabdbbfcae4c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/truth_train.csv",
+      "bytes": 95494,
+      "sha256": "a8790af82a27fdf4d6bdc0a7d5c7ac54050b7c7c83cf2d71e7e6f5d08b6a86ac"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_medium/truth_validation.csv",
+      "bytes": 31932,
+      "sha256": "65f2065a72cd4526c5c15dae34a1ad4683927f4a9bdc89ea442959ddf454a0c1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/data.csv",
+      "bytes": 125511,
+      "sha256": "55acf545bcbb9022eed5bc0c0340228e53d9244ff8f4ebcaf075b921cc50d1a9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/data_public.csv",
+      "bytes": 70289,
+      "sha256": "ff475b1256d0124892cc20925a6abeee105634b411aa39c4a0a15d152f3ef07e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/identification.json",
+      "bytes": 829,
+      "sha256": "a43bc7ab800030bcb0a22f5b69fb91afeed9fac57454ec07c26954c0185dc449"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/interventions.json",
+      "bytes": 899,
+      "sha256": "3be643cec680c151e670203913c10bc1c57b806145cfa3849962d1514a4f18b4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/metadata.json",
+      "bytes": 238,
+      "sha256": "63da0f844849968dde7de08e9489982533f1e6a9d8bf9d8021d2494803e34b51"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/observed.csv",
+      "bytes": 70084,
+      "sha256": "d3bdc545c0915fbd04b81025d3956264e8466148bb1a9c0fa1dea27156a64cdc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/observed_test.csv",
+      "bytes": 14849,
+      "sha256": "7cfad3968f50f9590d73588a821509037e70ea01a9b38e35ed215d1d85afe843"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/observed_train.csv",
+      "bytes": 44395,
+      "sha256": "86e7510d598388230eab977210363b957cf5ef4ee7e8f7b76a251adfe5d26d56"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/observed_validation.csv",
+      "bytes": 14860,
+      "sha256": "63ef9fdccbb0ee5b9a273a7151c64e6cca081a43cecfea6fda9f303d9f629ee1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/scm.json",
+      "bytes": 2667,
+      "sha256": "4c5c79d08a2917b64729958778ed2f2ce0c179f2ecb4a6a4a333bb1f67e967f5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/scorecard.json",
+      "bytes": 1291,
+      "sha256": "ee9dad7ac5c143b0515a33bf5dfe439722d9a854c6da4347c3f43525c569bf9d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/scorecard.md",
+      "bytes": 1106,
+      "sha256": "1e8b924d8303f21af9c5bcc9f4ffc067e662b21ed13b7223420369766c4d753a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/splits.json",
+      "bytes": 3615,
+      "sha256": "976d45e4da61fa2eb00fe8d0f3a7742ee6796927f18f6bd6681be233f74b30c4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/truth.csv",
+      "bytes": 79141,
+      "sha256": "70251b642e31355ba1c6112ec5e4d842dd3092f6cdd09a4e9461767e78869167"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/truth_test.csv",
+      "bytes": 15860,
+      "sha256": "5b35dff46f69ce3892acb0bd6be8561bf786bd7c0f7ccfd44190b745074922cd"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/truth_train.csv",
+      "bytes": 47488,
+      "sha256": "78aacb76b195d90c7ff56deb4b9ba687706e3abadd64447e8643fc78aba6b669"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/lalonde_small/truth_validation.csv",
+      "bytes": 15825,
+      "sha256": "4889754ec7de2c4a99c4da80d55479e03011ce92cbeeca1bab88217233137c0c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/data.csv",
+      "bytes": 217970,
+      "sha256": "a2202e288b188f5dca28c2fbf97701bf0017c2e3b7a62d0ea100b23fa213ae5b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/data_public.csv",
+      "bytes": 217970,
+      "sha256": "a2202e288b188f5dca28c2fbf97701bf0017c2e3b7a62d0ea100b23fa213ae5b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/identification.json",
+      "bytes": 639,
+      "sha256": "3d41edf64fc146c9adf2eab6424ad82b90c3c4242a418c64880d75e9df24908a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/interventions.json",
+      "bytes": 544,
+      "sha256": "3d1c0dd7c1df0be4ac07d1427bb4b9a7de3e1ec1cba7e0727052609a0d4f9633"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/metadata.json",
+      "bytes": 608,
+      "sha256": "3c5185005cb16c590d58f0a54900707f187c0e589eef1804d7202f8ca8b1c819"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/observed.csv",
+      "bytes": 217286,
+      "sha256": "5ed517e8fca586678e0197d5242f89b07087f96446dfc8a7aa83e5c0bfc5439f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/observed_test.csv",
+      "bytes": 47290,
+      "sha256": "7d96d5639d43d07d05217d607f3c6a224c903c06b5360c382c223ab3735089da"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/observed_train.csv",
+      "bytes": 141823,
+      "sha256": "ed54e3269057b11970d418df2ce23897bd20a964b5c827c6c45062b0a5e6a900"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/observed_validation.csv",
+      "bytes": 47276,
+      "sha256": "fe094cbd830e50e6f82e09b9b6d590f8d4a18a3968ac2dfcf735e05d2cb2ff42"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/scm.json",
+      "bytes": 2184,
+      "sha256": "656eb6fd954eb715fa769724e9be77954f9a52d47dda67f2ba1eac57d115144e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/scorecard.json",
+      "bytes": 436,
+      "sha256": "d5ed4187286387ca886b90bb614f92f27c815e745ad9c05e18d24d3ceb6391d5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/scorecard.md",
+      "bytes": 303,
+      "sha256": "36e6ecc90ca91a31a2145f16db1851d83d27160dac410f7f943a71e80a770b07"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_medium/splits.json",
+      "bytes": 2991,
+      "sha256": "ef8673999b6af45f941767639c57e4dc99b3f50eca7cb53f0a289850913196b1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/data.csv",
+      "bytes": 107970,
+      "sha256": "6885fb3f7d1073bd5eb7db0e14ca0b227d721242c885e51c8e69f5c47629fb75"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/data_public.csv",
+      "bytes": 107970,
+      "sha256": "6885fb3f7d1073bd5eb7db0e14ca0b227d721242c885e51c8e69f5c47629fb75"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/identification.json",
+      "bytes": 638,
+      "sha256": "61c15a071c5d8f5a11fe201be1812e7d40c2975e1d10cf4218c05b7cdf994937"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/interventions.json",
+      "bytes": 543,
+      "sha256": "b879273d0f453bc55924b6608052502b5254fd5ff7b26cca6579083dd01eb7cc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/metadata.json",
+      "bytes": 607,
+      "sha256": "2b55a3442441ac96da02bcb3dc678c3d7ea6d8191bdd855c87466f15d7c38bb8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/observed.csv",
+      "bytes": 107632,
+      "sha256": "d0accf339ba3ce4a1dee9450e431294e93f61094fcef8165baf17adb4f9075ee"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/observed_test.csv",
+      "bytes": 23355,
+      "sha256": "06fb3c9c7b5694f5e778f530bd21a3f9c267c30c6a2d53bb6c1bd389f98c77cf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/observed_train.csv",
+      "bytes": 69972,
+      "sha256": "20b7bea22f5bab1ed2bb73d8e2bc116baec89a9d44c5a4c3b43bd48d2290b7e7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/observed_validation.csv",
+      "bytes": 23408,
+      "sha256": "5dc9cef0c085c65eb8a0efb90e36de709a5c9d50a208305efa85e36dbdb7e0c7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/scm.json",
+      "bytes": 2182,
+      "sha256": "b1cee21ca746912dd5d95a01fb7928726aaa03a40105f3525a2010baa575049a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/scorecard.json",
+      "bytes": 434,
+      "sha256": "12454d168d267147bd02216446cce4a94cd98bef182d2f9db13a0b193927d45b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/scorecard.md",
+      "bytes": 302,
+      "sha256": "7fa257bc2eb869a63fe40ef33c6153138bdc03f33ee15f23223ff018f011b487"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/inference/twins_small/splits.json",
+      "bytes": 2990,
+      "sha256": "7e0280ffaaed50b5fef7b81bc215949c9849c77633a9bd2ac1b2804a39cdd7d3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/data.csv",
+      "bytes": 19353706,
+      "sha256": "a5ddf7f1c211de362c3bf63db0a11337d38e18ba6d01f5adea2a56039f58f87a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/graph_adjmatrix.csv",
+      "bytes": 40781,
+      "sha256": "0bda345fb2f5e2017af9d985b06086a880c5c472d0aa7bbd4dfa9a96bc96a3e9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/graph_edges.csv",
+      "bytes": 886,
+      "sha256": "ac5b05680130cd5d7d528adbe84eb2a0f4da5579ff1769f8a597913475253d98"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/identification.json",
+      "bytes": 538,
+      "sha256": "adde3af0b936d50d311f62efe091abf0c81ca184205024a8ee31985757b12cc8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/interventions.json",
+      "bytes": 444,
+      "sha256": "e6b257ddf0dfb2ba09136d166499f10ee0b9c3a4be259c45e3745dbdc456e433"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/metadata.json",
+      "bytes": 331,
+      "sha256": "c6d4d607dfbca533cb4fa326f77373797143811b2624a2d70f25faea04019859"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/observed_test.csv",
+      "bytes": 3832218,
+      "sha256": "55ede59e8bb3f956b052ebfe7e8f1dfa3db5c3dbb3812c6b831f63efde62a424"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/observed_train.csv",
+      "bytes": 11494839,
+      "sha256": "36b7742acba7b5e11454b485b2ac944c2a040848a23dc40c727f71aac729bc67"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/observed_validation.csv",
+      "bytes": 3833014,
+      "sha256": "a19fa587175d04aed59908b9b7af1737fc7e4fca6e75446f34a528729cd3bab9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/scm.json",
+      "bytes": 23984,
+      "sha256": "4c412510f0d9b8c593b8e869e8d8b4a29f196b52d5ab38e6cd2088c4fa693f80"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/scorecard.json",
+      "bytes": 1039,
+      "sha256": "2faee1965dee4411c0d1b56c13775ec5fdcee52e52aea6c3e37007abdc57dbc9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/scorecard.md",
+      "bytes": 829,
+      "sha256": "a9c0d65beca37c85eb223c621ed4c3762522e4025eed071fabe296c274c00c75"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/splits.json",
+      "bytes": 1721,
+      "sha256": "b3f17936b9a11e9ffcd9f23098be64d3048b5134f055532aba4990b559edf0d3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/100_vars_150_edges/variable_mapping.csv",
+      "bytes": 3009,
+      "sha256": "63abcf6d0fe9eea6e8a10f34e6613c2448ca404f56e7cd648b760183b9e1c9bf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/data.csv",
+      "bytes": 193627,
+      "sha256": "7764beeb44018ca21740921f758a97a3450e1e81f2e3ab4bede6b6d69ce0b81f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "ef63676c43effdcd161dbd9f3c4a8397b9a63e345e53e6c31ceac6863a2d36b5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/graph_edges.csv",
+      "bytes": 54,
+      "sha256": "16ef3682872f283617bde37cc1f9ef542e2875ea49587d196085f4e3bf594d52"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/identification.json",
+      "bytes": 536,
+      "sha256": "ab0007f4479ced4a34444737aac5d2caf8dfcba66dbb6eb7f57bd9523d37f267"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/interventions.json",
+      "bytes": 441,
+      "sha256": "be576ffe232dc62646dd497aeef079107273dee4d617d5d582970a479aa4fb38"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/metadata.json",
+      "bytes": 324,
+      "sha256": "1f332954bdf8230163accfc29fdbb55308d82c77ec5dc7e4c17f1b0742261010"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/observed_test.csv",
+      "bytes": 39087,
+      "sha256": "5477f564dde3fb6acbd8b33938c3799122170b7f941579e661a9c93be86f5d56"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/observed_train.csv",
+      "bytes": 117096,
+      "sha256": "f190a0b87f70bb3ef9ec1159e4ac50da986c2049c6ad254bc4e6a88d718bee4d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/observed_validation.csv",
+      "bytes": 39037,
+      "sha256": "5777cf3f1bfbe82dc1bff7d9d4d89516cebf45e9d88735a74fd314cdb914fdce"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/scm.json",
+      "bytes": 2957,
+      "sha256": "31bb8d40d349f9c15795744fb023924000d33e056be6b874004a9bad3cd9cf84"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/scorecard.json",
+      "bytes": 966,
+      "sha256": "76716ff26bd6d6aef520434e2bd63fbb1ac18e024d3f2d20964f4aae656f78db"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/scorecard.md",
+      "bytes": 758,
+      "sha256": "aedce0bcab1a5e37cc50c560ad17e65e64c1a42dfdf2c7ba9fe8785a31f03057"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/splits.json",
+      "bytes": 1710,
+      "sha256": "65e4eb62ac799d6a239d59774fefcd69b730ef3c82a34c58eaad4f4ac6faf748"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_10_edges/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/data.csv",
+      "bytes": 192143,
+      "sha256": "235bd1248be1a2081cbb6a2b6350f3f8b1b2fc23b7d54f5f250054f86c429ecf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "8310906a5b0cac9a17c22e90186a1dc0fe09d6ac7395c8f27b6a56740dbfed3b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/graph_edges.csv",
+      "bytes": 94,
+      "sha256": "62946147cc8c11cd2b84169897f3942124633054617a4dbf55b6bdff13182098"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/identification.json",
+      "bytes": 536,
+      "sha256": "c716cf24669eacc86b5087816c326273a0454b664178050a7bc4c98c3666cd2a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/interventions.json",
+      "bytes": 441,
+      "sha256": "21f3fd6cdbd77e427ccb27887740868d7c9f33b958e62776f18326e253af7310"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/metadata.json",
+      "bytes": 324,
+      "sha256": "fa7b287b6178986e461e1d6a25e5569e43367c6bbbacd260d572af63b9cb5612"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/observed_test.csv",
+      "bytes": 38830,
+      "sha256": "f6086eb1f8cef9f5ee30b8dd84d882eb8e4e4ba6fab534304cde78393cb531f7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/observed_train.csv",
+      "bytes": 116414,
+      "sha256": "3eeea322f482fb1b6dcd036969d4b1cb014a57a089fbc6a11d446144b8ed233f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/observed_validation.csv",
+      "bytes": 38895,
+      "sha256": "56bd2f358836cde9eb3e73a3038b5dcab687352a2cf64a59cb604efd851237ad"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/scm.json",
+      "bytes": 3577,
+      "sha256": "b0b7e1d6bf11c6067e79c64992255abcf5165297fcccfdb860d8346125ddda1a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/scorecard.json",
+      "bytes": 1000,
+      "sha256": "118e06a909e0022cdbada361a5e10bdf9c547c75c5f9f8b7a3e1392768d686bf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/scorecard.md",
+      "bytes": 792,
+      "sha256": "2668c7552355940f9a42adf9366c3c5de33c190e08e4956a95ea3e1fd5f55f64"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/splits.json",
+      "bytes": 1710,
+      "sha256": "7dc420525327bd5a5928613b581f6dd16725fb1cf2a5d09e6414be669a84167f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/10_vars_20_edges/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/data.csv",
+      "bytes": 777171,
+      "sha256": "27c95fb4ee9eb45120bac2bc4e404cfdba4b0aefda454f9f84ca5c981b447290"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "8429824023784596a3ebc0a85297d537cfdfc62f0a0464dee63d33c22ee60b3d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/graph_edges.csv",
+      "bytes": 117,
+      "sha256": "71888ca8c0c983047e45e2e295c9f2455249318631da9390cbfab1165996c02c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/identification.json",
+      "bytes": 536,
+      "sha256": "198537a3111146362595b3530704f0fabbf575ea83445b8df6f21883d44a9d54"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/interventions.json",
+      "bytes": 441,
+      "sha256": "7faeb82fe93a2eb55140008ad29a9f7119da14d9feb8045c0f573b9ea73e5c70"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/metadata.json",
+      "bytes": 324,
+      "sha256": "31f98da21be760ddc8d2a58c0a4eb038b78510bccb26c3276abdbc410e31991a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/observed_test.csv",
+      "bytes": 155107,
+      "sha256": "2a37ee0b6e69b3c73cbfbbd6311874f88274f06e1b74559ce126bc826a38c9a1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/observed_train.csv",
+      "bytes": 465245,
+      "sha256": "329e93da38dacd7fc917c4f6a19fe00883723446f6a16ae36d60baa340a35cd9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/observed_validation.csv",
+      "bytes": 155270,
+      "sha256": "4aac1ff9290714b27e1ec2e0b3cebcd1b14f912329a8ae13b199c52cef3abf84"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/scm.json",
+      "bytes": 4930,
+      "sha256": "ebdfe89fc20505dbfe95e38d433b4bd4f026220a3abf4981b0db7bf61cdcb1db"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/scorecard.json",
+      "bytes": 998,
+      "sha256": "a6d6cb1d9b103a047c2ce6adfc48a352ab8e73cb93f3abc87a6f370578bae964"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/scorecard.md",
+      "bytes": 790,
+      "sha256": "41da82553c87530a8afdf5c650e829b58d517fe7b87130dcc12788a0171d1704"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/splits.json",
+      "bytes": 1714,
+      "sha256": "fd6a247d6872c500632c9e26ac385e845fa08f48b234d34135b67d6e54c3fe80"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_20_edges/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/data.csv",
+      "bytes": 771070,
+      "sha256": "9c64da70a856fc17df03810abe17f182fc36815ee41fcc173c1c4bfa31337e62"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "bcfa4bb5921ef9160392d77f734135972eb1b923634b503d53c42d3f53836b67"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/graph_edges.csv",
+      "bytes": 212,
+      "sha256": "d8708d7633ae1c0b73583e271626739664a64dcc2417ffcb4ead50867de6ec40"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/identification.json",
+      "bytes": 536,
+      "sha256": "e1095b1d6d32cc7277607f628662732001924b68cf2df9987b4db459b5c309c5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/interventions.json",
+      "bytes": 441,
+      "sha256": "bb94e685d57925146fbecc5995357c975c7f86f007d3e22f5e6471da067d0f0e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/metadata.json",
+      "bytes": 324,
+      "sha256": "38224414c354395f1b7e48efc2584892d1967ace917f4d0eff39ab053565f181"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/observed_test.csv",
+      "bytes": 154259,
+      "sha256": "892eb5d75d9ba4fccb2f07d2f8e4cc968ac9ecfba6d4481a9b1724203ae5fcc0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/observed_train.csv",
+      "bytes": 462652,
+      "sha256": "8abc9683ed766ab5c9f68473ce20daee234f98e813b343c09fc98fd22c054aeb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/observed_validation.csv",
+      "bytes": 154439,
+      "sha256": "07f4d802f5e2a898746fa0c0794c8901310372830ad669195036947da03236a0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/scm.json",
+      "bytes": 6185,
+      "sha256": "f413ef549324c405c76a7e230b1776fbbe7c2688dfa32615996f1c148b60cafa"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/scorecard.json",
+      "bytes": 1002,
+      "sha256": "54a226765de9589b154c0b4123e45f3a36ae5fa9bd23843d068d3722ac157de0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/scorecard.md",
+      "bytes": 794,
+      "sha256": "9b8cac6af057f0bcbac36e250c998c654155defa92dfa9e0146e03b8f6b6ba02"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/splits.json",
+      "bytes": 1714,
+      "sha256": "67e429351e2f5e0a873070d5fb763ca0bc84dc4dc56c8802039a2ec61c63ab91"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_40_edges/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/data.csv",
+      "bytes": 774370,
+      "sha256": "f8057f7d3e4d4e42a1e4c4f51ceb250e9e58456cc6739f9fcf7967df908ea119"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "0f1235642c20771eeac8ef656f5ce5772cd3b397b42bf656ed8a6c3d500d51f3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/graph_edges.csv",
+      "bytes": 157,
+      "sha256": "4a0ef43425851a5b17074f4745e25578f87944feb49c1e59d30c5f3042805f75"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/identification.json",
+      "bytes": 530,
+      "sha256": "8000466aa1ba311c5b700c1196fbec27daca26e17089ade8bae0e038c20af0f2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/interventions.json",
+      "bytes": 435,
+      "sha256": "7d36cf2d46eda6acea03fac11c7e7294f99204d0973bde7574d1dfdea695fe12"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/metadata.json",
+      "bytes": 312,
+      "sha256": "766919ecb9a95098d69e8bc62884144aac2137e527854763fecad8e744fd8825"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/observed_test.csv",
+      "bytes": 154686,
+      "sha256": "c52695b71870ac6934918e70259a0433da08da19546b69628360fdd0001f6d69"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/observed_train.csv",
+      "bytes": 464290,
+      "sha256": "67905e5497ab8bcec4f3924d86e4267f8b6bf7fe9f35e64de14e201fde141e5a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/observed_validation.csv",
+      "bytes": 154801,
+      "sha256": "7170a9016c1a58f47afe045de26fa11ba9de6a8b2fafae027392691a40dc46db"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/scm.json",
+      "bytes": 5538,
+      "sha256": "0c6168d3c97a68905282039becad704120bafee45a80c2d724b4185768394952"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/scorecard.json",
+      "bytes": 1021,
+      "sha256": "038130fe3390ee23b5bcf048568aea86dd5732ee38b3f8a43ea03ea7989e13d9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/scorecard.md",
+      "bytes": 819,
+      "sha256": "c097ad4cf1e2309fd7ecab6f5fd2c8fe5dcbd19231be01c67d7c1ef6986220aa"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/splits.json",
+      "bytes": 1708,
+      "sha256": "af3c8d8716d1c3739d7c725c571600862b156ced95d8e35d36a80e76743dc615"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/20_vars_sf/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/data.csv",
+      "bytes": 4805910,
+      "sha256": "87ea9acef896a6084f5d03b89ff4862abecee2034c8ebef15033af52c79cda39"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/graph_adjmatrix.csv",
+      "bytes": 10381,
+      "sha256": "0833c0d093829b776df96f864b7a3988c18bf366d48fc6ff5c540203892308c3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/graph_edges.csv",
+      "bytes": 574,
+      "sha256": "deaf245bb0b9da2ee4fee15cbb93e02fbbca51331ef0d3d04f44e8422b192187"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/identification.json",
+      "bytes": 537,
+      "sha256": "80b78b8512a8e206ba7b14c7456947be1de05092cedd609510970f245242da8b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/interventions.json",
+      "bytes": 443,
+      "sha256": "42efd980dd2748d6bc78eda4ed009d0abafc6655ff3f4be3fd1e3bea49c899b7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/metadata.json",
+      "bytes": 327,
+      "sha256": "d9285280d8dffa9ea882fd4253bf5cc8188969705768ba41bc0f9474b2e315e4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/observed_test.csv",
+      "bytes": 955935,
+      "sha256": "a7aaae561d4818896a1e3206488a123ca553aba591dad643b6dd529c98cfe1ae"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/observed_train.csv",
+      "bytes": 2867048,
+      "sha256": "61da199a684e6df9f323122b901b9b1b64c3d00f10b03fbbcace95810eeaa5d2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/observed_validation.csv",
+      "bytes": 955780,
+      "sha256": "dcff4b243e73dc15a5b311c9afdaf94214df8954185b6a77ef4164a54e3859a0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/scm.json",
+      "bytes": 14020,
+      "sha256": "73525bb8a28d2aae2e6fd23536ddf0b45d6155a4f725c143bf3d1622a48e4e4c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/scorecard.json",
+      "bytes": 1011,
+      "sha256": "3af2c44f9190d425bb22cce5e70328249c93331c892da2d8306da6a2387d3c8e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/scorecard.md",
+      "bytes": 802,
+      "sha256": "891b5a0f4db4aee59d9acb039cecd7fbab3d2613e70bda91c5f9e5c571906487"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/splits.json",
+      "bytes": 1717,
+      "sha256": "b1647e0b1aa51bc9a1907c451559b4459365aad2a97fa9f6c97074984214aa09"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_100_edges/variable_mapping.csv",
+      "bytes": 1509,
+      "sha256": "48e28d3b78b485a5757f913175543ab41722a6b821bd678b009dc533ca50fa03"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/data.csv",
+      "bytes": 4844568,
+      "sha256": "0d9e3834ecef4f5c1a932ed2896d39def558638faf4ada9d281c5fef36ebea3b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/graph_adjmatrix.csv",
+      "bytes": 10381,
+      "sha256": "5832db1eb6fa03543dfd3e9623227c2f0a12c87b183df5e35ddb09f6fd769dbb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/graph_edges.csv",
+      "bytes": 301,
+      "sha256": "e3ba27321eb6f0bf7f23d4f2f6b17dd75666475aa55b9e415a3991bcb24ea49a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/identification.json",
+      "bytes": 536,
+      "sha256": "95a2ed214592f9ce3c7a9721a0ccc843138558da65e47260bc76bba7c99c3229"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/interventions.json",
+      "bytes": 441,
+      "sha256": "5d286a3d7ca36a8e8e69b8c83011e6c6aac0f6d6e72649601440c9790067792e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/metadata.json",
+      "bytes": 324,
+      "sha256": "cbd0ca038d875b1b2473880997619ae1550052973590eb5d7c7bd19d18c3a56d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/observed_test.csv",
+      "bytes": 960969,
+      "sha256": "92d5e53f9b7b22e5328a812522d7432d09843c4f23fe26acc3491260f68041fd"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/observed_train.csv",
+      "bytes": 2883728,
+      "sha256": "2016370fcb0e3df2038bd38873918ff7ded4ec839711cbba6e905a0768bc3be7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/observed_validation.csv",
+      "bytes": 961230,
+      "sha256": "d5471b58d549840d8c34ad198e13c66ab6104fec444a06a77d491db086cfdf99"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/scm.json",
+      "bytes": 10844,
+      "sha256": "43e394e2db2ae16065b99df066ff6e02ab55ebe3f5946979383eb84348ff58d9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/scorecard.json",
+      "bytes": 1003,
+      "sha256": "bd498a15be01ceb1b4cf5d83825ad84278df926131e42118d76c80cb5d223286"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/scorecard.md",
+      "bytes": 795,
+      "sha256": "f2358eac070e3aa4b4f1566c3a61061f069d500f181c5ac3aefceec1288db7f3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/splits.json",
+      "bytes": 1716,
+      "sha256": "b9b7d3ed043386cea3ee2b7d20bda9527d8eb42afef1a2b1018fcbe7865b12e3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_50_edges/variable_mapping.csv",
+      "bytes": 1509,
+      "sha256": "48e28d3b78b485a5757f913175543ab41722a6b821bd678b009dc533ca50fa03"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/data.csv",
+      "bytes": 4850521,
+      "sha256": "6831581d105530eb9915bf95d76c03782dfc27db1c83fe5faa4fdf13bba8a42d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/graph_adjmatrix.csv",
+      "bytes": 10381,
+      "sha256": "553a2ef0100589191d8b0e2593c9c17c8ae407de5ad4397b86dd359518878a63"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/graph_edges.csv",
+      "bytes": 401,
+      "sha256": "e8f838c41d7418c2e4efbf2e5932dbdcd6bc3b03a5aba65e864527f5fce2e370"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/identification.json",
+      "bytes": 530,
+      "sha256": "e42b835932efcc3e73ed035afe845d2c8d611b8ec560050397d6de0ffe410095"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/interventions.json",
+      "bytes": 435,
+      "sha256": "c9336644b80345a6124648884b1b04c04d9d745ba05e15249a504bd88c1e4363"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/metadata.json",
+      "bytes": 312,
+      "sha256": "034db04d16f7b28a7e964107a59357e77042bcc4ef37bc4a017a4122af256206"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/observed_test.csv",
+      "bytes": 962493,
+      "sha256": "5516c3b8288c2cba7f37e6cc137e9af47e2a150d84192dde72575e03f6d7f8d3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/observed_train.csv",
+      "bytes": 2887540,
+      "sha256": "31b31fb941be8e5ae285201effaddff77c2a2af4ba01688bc3382b7ddd656ef5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/observed_validation.csv",
+      "bytes": 962397,
+      "sha256": "98d7f5d187c0efda567f3edf6fad33315d5a81e7738ae68f9f0d683f531a4493"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/scm.json",
+      "bytes": 12382,
+      "sha256": "5888fe6ea6306c5cca1f15da01ec9013311f0f5d623648e7a599e91d66bbe6f0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/scorecard.json",
+      "bytes": 991,
+      "sha256": "c9280b1660a6eeb206516fc2cd7471c2386b836e244888ad40744ba9d701c36f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/scorecard.md",
+      "bytes": 789,
+      "sha256": "ccba37d726fc32095adfa0bc5c35a85649129f200d48bfcb40ca4557cfff1ba8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/splits.json",
+      "bytes": 1710,
+      "sha256": "6eee6944bd690eda6b4361e44b2c2a062f2abb9eaddfdfab3ebf8c0697c52684"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/linear_gaussian/50_vars_sf/variable_mapping.csv",
+      "bytes": 1509,
+      "sha256": "48e28d3b78b485a5757f913175543ab41722a6b821bd678b009dc533ca50fa03"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/data.csv",
+      "bytes": 191772,
+      "sha256": "7f51d3a47bb538d804a672b7d22967d5447d2fb0d6a0450dd51a48cf0395e22f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "364f083817a28e9a0b07e926b5158c0bb078030701559103278cc49c215141d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "0098da1a42234fcb18937d49cbb4ca12331fd5cd29275c7c677f62547bfe81c4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/identification.json",
+      "bytes": 531,
+      "sha256": "65a7e07c18f7283174f15508b7fabdecc95d13604223b0687eab9df74bbf04ff"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/interventions.json",
+      "bytes": 436,
+      "sha256": "47e4bfa8b90780c6819de8c6514da0a0b851079d20e8fe8d816be6dbbac09eb6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/metadata.json",
+      "bytes": 306,
+      "sha256": "2d1c6df12bef49c46ef83984bb1a0581b35e08474e5218367829d13080ea1905"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/observed_test.csv",
+      "bytes": 38744,
+      "sha256": "0362dffc5e57b6a008020d4869afeefb1acd989a84084056c9ded76400766bde"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/observed_train.csv",
+      "bytes": 116150,
+      "sha256": "ce3af5cde59ff07955fca2e03299186c54d114f6458cb656236aebaf4ea6da71"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/observed_validation.csv",
+      "bytes": 38677,
+      "sha256": "dd208fcbaba187dda745bda2372eb90fbacb6d5d2c43a5202a12ebf2f7277df8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/scm.json",
+      "bytes": 3261,
+      "sha256": "6b1cf071a68633a41d9e4a07f5cebe1932587e44411b3bd0b7fe2cea75983d9f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/scorecard.json",
+      "bytes": 1016,
+      "sha256": "e94fdb851476d6525505d37866d8804ffc6cc85b90f003b6879a8413557a6e01"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/scorecard.md",
+      "bytes": 813,
+      "sha256": "c52b9aa035a977a1a45507fe3678bba4449a0925bb51d153dfe7b2a657370ee3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/splits.json",
+      "bytes": 1705,
+      "sha256": "bb9fdd4de24d17ee1bc826957aa8a5337cbdf4a2d0873afaeca4592925164913"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_gumbel/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/data.csv",
+      "bytes": 193507,
+      "sha256": "9de2438cbcfeb6703a6a29ce768aeeb65b3181492f3132e4737e67abd42914f4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "bdcbf41cd6bef118ccee62208d0c5cfc99b51dac077b6ee9c5795692cf56505b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "8f9ec4aa2ff91618c3e9a4ae62d167fdb2ab33b7e8f715fc8622ec9565ecf0f7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/identification.json",
+      "bytes": 532,
+      "sha256": "1b2c60d12e0139f2a2303c05d4053bcb2c26f594018208fb0225afc912572b69"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/interventions.json",
+      "bytes": 437,
+      "sha256": "8177af090c95f328c86484176bb3fe87cbfe5e6d4472a845a6149eb2e991350e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/metadata.json",
+      "bytes": 309,
+      "sha256": "d3c607629d2f9ea0683656248e7867f1a929318b0d8fe47e673ab3737730a67b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/observed_test.csv",
+      "bytes": 38950,
+      "sha256": "988bd26160810d22a756fb9e5c4bc0c99f07a8783a8a91a06d473fd6a4cd4b6b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/observed_train.csv",
+      "bytes": 116934,
+      "sha256": "caaec64cdc2e9c6ac2b62fa0b99268c13af7003109b8fdcb88def9e96f2fbbd2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/observed_validation.csv",
+      "bytes": 38975,
+      "sha256": "f5ed7b58d7ab3738c1b09301049e3717e059fcacd8fa28d8a2611ae88555f1ce"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/scm.json",
+      "bytes": 3263,
+      "sha256": "c54d51abc4c5430d4b9ce8c4bfe12f523362c07be3dc98a6b7fc32672617a936"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/scorecard.json",
+      "bytes": 990,
+      "sha256": "5a5a126bf9a9e948e390662d927411c17571b5eb843e564a4bae204b0c485489"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/scorecard.md",
+      "bytes": 786,
+      "sha256": "3d6fad3be797b81d98b576e69b55b2e64bf6d7abce43f91d1c6cfc554fd1ccf6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/splits.json",
+      "bytes": 1706,
+      "sha256": "47dd6f97294776795f2ab819ee4ad91410dc8388b12f98a457e492e9f655c9f0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_laplace/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/data.csv",
+      "bytes": 386467,
+      "sha256": "ab4bcd6cdcb9b77238e11a28a2f3d402763cdff23ea6f2a857930122cfcae761"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "9c005c2be628ccaf5d95bd0b02d169e74ecbcd43279b282781e9ef0b6d384970"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "88dd1b8426b21170295565dfe46041724b1622753cb8e1b7afd612d76b381717"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/identification.json",
+      "bytes": 533,
+      "sha256": "6f23e3d814715b3a99a1290c19ac661577b802dab9f60b3cc74b5e3d8be2ee22"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/interventions.json",
+      "bytes": 438,
+      "sha256": "7ec1ff03d77d854f02e3107ae35532cb3c01c773f88603b629596c2080117844"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/metadata.json",
+      "bytes": 322,
+      "sha256": "6dc0345cdf87fed18b5167a11dedcbdfff1c030c3b2f93b7f8032066bf76eabb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/observed_test.csv",
+      "bytes": 78124,
+      "sha256": "985cbbb41f7bdb586250c603d0868f485a67a8c47ac3f96ab9dc1d6f0dc9dd90"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/observed_train.csv",
+      "bytes": 234266,
+      "sha256": "1b76347b8be74278011b5575d29ebfb4e8bc43308050eda440a38aea26d6c1af"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/observed_validation.csv",
+      "bytes": 78097,
+      "sha256": "11e7da99f5d20ce0adc4a1bded4b13adbdada4ed4f27ba4e16575ea7db81c989"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/scm.json",
+      "bytes": 3265,
+      "sha256": "51da1d401dabf378693fda0b8383549b86dfbdb1b2669882bf3b242902455c92"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/scorecard.json",
+      "bytes": 966,
+      "sha256": "8e2aadd49e3e8abf2a6ddace58582f92a9dd276622a38f516cd4ce15b43b3372"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/scorecard.md",
+      "bytes": 761,
+      "sha256": "5fdeb8239526d85f5379eb6cdf3a032d8bf4d9805be2c81e5fe8c0a974337512"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/splits.json",
+      "bytes": 1711,
+      "sha256": "39e7e3af3975516945d422898aec11576c86ac897811f592cb48bc5d4437ff3f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_mixed_ng/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/data.csv",
+      "bytes": 193047,
+      "sha256": "3162ef1dbdc889cc0d3aae5652cb36589fe6955e06c3c43e7cb6ee596f2f7348"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "c8e8436ef17f4781ed02459809a7917d6fcc01be6cececcb442228c61d559376"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "90754fbc3797dcc48520310ce93e5c8fadc515a84ddec7ed65522542b5621d9b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/identification.json",
+      "bytes": 532,
+      "sha256": "d5799ea9fc1d6abb39a0b42a4b1b316d752dfb536c7f647c470438e45f3fd392"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/interventions.json",
+      "bytes": 437,
+      "sha256": "caef21d738ef9e9c718e0796fa1cdca413e2da20793e3dc839a8b7518020b6b2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/metadata.json",
+      "bytes": 309,
+      "sha256": "f3b7e1b2ca46edf37bf3c917499524e9fa76ee2dfffb97e2a62dc95aa05288a1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/observed_test.csv",
+      "bytes": 38930,
+      "sha256": "08c1a93ee4faa15cf1affc99af73c327e0ab8d1e04e4c931f52a9be60f33c1e4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/observed_train.csv",
+      "bytes": 116955,
+      "sha256": "1e392d48c3bc0239e873447c3a6efff7733a538a938a02ae4474a31c1a197f9e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/observed_validation.csv",
+      "bytes": 39010,
+      "sha256": "698fb9b80f078fcc96a56b20308b30d66eee71f9445e7b2d3e277387094424d0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/scm.json",
+      "bytes": 3263,
+      "sha256": "78c5c94a1df5b7ca52c5905179eac5969334b15cda23e8a9b24c1c078dfc0f47"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/scorecard.json",
+      "bytes": 988,
+      "sha256": "baabcd9ff1d3da75efecc2727459cae3ec33b3b11c7f88591a2f774dae5ed67e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/scorecard.md",
+      "bytes": 784,
+      "sha256": "8c990e6db8189fee36e26b8f41a82644e29a8ca3290a8b14a81677fa810c8878"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/splits.json",
+      "bytes": 1706,
+      "sha256": "9d83b9469d154129060bb8723136abfea8140ad69758b93897c32abda3f10e49"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/10_vars_uniform/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/data.csv",
+      "bytes": 776875,
+      "sha256": "f736620c7688c87fdea0e4714ec3b576e81751354c14fffa8b5e8e872a9f0a42"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "b3fe796b6bd4a7d9006a71ee5debeeb3aa7afe4042f56bf5c06cd38b3314be27"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/graph_edges.csv",
+      "bytes": 163,
+      "sha256": "4891f57ff36176f494b77033d5fb53dd0911f91df93af413e05a6765e62c1130"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/identification.json",
+      "bytes": 536,
+      "sha256": "30085eb073eb48476ba86b8100fb64168a2cddfa3c218ff68eaeba1ad58f44da"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/interventions.json",
+      "bytes": 441,
+      "sha256": "c410bee2b791359922c9e6ba922cffcc3dde0ca8dc94e82503b13d0763a3f579"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/metadata.json",
+      "bytes": 321,
+      "sha256": "ff58baa5ac2590375c7c9b83b852c7815ed7bd5ddab95ef011f559e64c644e99"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/observed_test.csv",
+      "bytes": 155302,
+      "sha256": "676de7f65fa201b9405e99e5dda17ec45cafeb3fa061982803a36954f7f0060d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/observed_train.csv",
+      "bytes": 465655,
+      "sha256": "cff101251225f45244f09b847716add6ee23c780bb00b4a0fcb14c371a037c29"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/observed_validation.csv",
+      "bytes": 155228,
+      "sha256": "173427119b350d701de8c1d93643e2502b638aea95ebbde704f0cc9cfad1cec3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/scm.json",
+      "bytes": 5560,
+      "sha256": "f6bf6d4b61d960b71bbab5a23056cf0e80e559e80546b2bffa0434d1aab1fbcf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/scorecard.json",
+      "bytes": 998,
+      "sha256": "85aae4dbe4fbf692379a4d77d705b5ca638e467f7539176a0b73f56175173f61"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/scorecard.md",
+      "bytes": 790,
+      "sha256": "9aabe85b86917c3789c6fe8c6a55b1657d99832cabb1c01e9e4f91f3d6ed6c7d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/splits.json",
+      "bytes": 1714,
+      "sha256": "d5e6d27b3f5345e8f01cdf518f0ccab984bdaa243324a2cf180d082a94bafbc3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_exponential/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/data.csv",
+      "bytes": 774485,
+      "sha256": "99555a12ff44b6f988125f5edd66ab6623e35d24a612da7846395dc76966ef49"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "fe796c7f0d633bfcda7b63360a2f784cf5c5377e16eb46f0b1956bf1c6cf76b0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/graph_edges.csv",
+      "bytes": 166,
+      "sha256": "c18fb3adf141be90a12264bcc9f1add556cf2051cc9988299e9eb6c9b12d4d0a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/identification.json",
+      "bytes": 532,
+      "sha256": "b52258c8a4019b4ec1d89c602724556ac949539a3493867f8ab1ba2538857b0c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/interventions.json",
+      "bytes": 437,
+      "sha256": "2c94f07765228934c8ad5b291e3a8846465bcf3e6d9bd4a433a6a7ac89d0541c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/metadata.json",
+      "bytes": 309,
+      "sha256": "7ed84433f8cb41f1c48236ced1fe01f9a1fdab41a9095413a41006671dcf45f2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/observed_test.csv",
+      "bytes": 154663,
+      "sha256": "b91d4b37cb1e5ef57e534487f1557ff8b720ed133185a599aacbd7b385ab4c8b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/observed_train.csv",
+      "bytes": 463547,
+      "sha256": "441ff1026b9419e7dc212a4878fcf9b01c904c964363a4b092ee09abf708b8c6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/observed_validation.csv",
+      "bytes": 154634,
+      "sha256": "64d9d847628b32f1b833a8ee1b45ba59ad8d885e10104e4a04a1b111a3ce41fa"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/scm.json",
+      "bytes": 5555,
+      "sha256": "bb3fb85683ce76b487ac615959fb230c49ae61f2f216e3b11f1014cbe75da22d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/scorecard.json",
+      "bytes": 1016,
+      "sha256": "713a894eb6dff8d531c7cb3b989328064d48abb4bf23464ba145f64cd81c36c9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/scorecard.md",
+      "bytes": 812,
+      "sha256": "01b986e452ea331860a74232bc3c99e80eb555ff40bbd4d2928a3fc8464abcb3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/splits.json",
+      "bytes": 1710,
+      "sha256": "f95991b0276e65014663e131207951aafc46b89a1180ae349fce532621474ad2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/non_gaussian/20_vars_laplace/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/data.csv",
+      "bytes": 192635,
+      "sha256": "f0494bb3062d71bea23942b9ecf4197ce21f514b976f733104fd83057d974441"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "8e7f14dc6a6b5cf124802f564675087c176bbb88278bf9cde3a73ae6f8330d28"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "241f3c2424a193e5190174a7178f8ee5161eb5fd60d9216e05f693a824ae86e0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/identification.json",
+      "bytes": 524,
+      "sha256": "51ad9fca7c13d3fde43aefcbb3b798a377f05295970bbb54c9e185931439168b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/interventions.json",
+      "bytes": 429,
+      "sha256": "5f36cf54f7708bb3308e1069f589b61a77fb8378c79cb69c5d98ea9ea663a4ac"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/metadata.json",
+      "bytes": 302,
+      "sha256": "cc97483e61fd69d52c8f69569d8ec4b892a7ae512f9641914b26c5e36ad7379c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/observed_test.csv",
+      "bytes": 38897,
+      "sha256": "4c22ac5f85c2df6849c1dc4657b3f697da5da172708320aff0762d615114dd20"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/observed_train.csv",
+      "bytes": 116203,
+      "sha256": "a4d4c0da663ed35c3cbae83121956d4c830685aef467cfc0907684f426e23614"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/observed_validation.csv",
+      "bytes": 38860,
+      "sha256": "bda426a330ba3dbe91a58ae432d202e6e5b8be6d325bee15aa1e7a8c0feb2a75"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/scm.json",
+      "bytes": 3241,
+      "sha256": "9fbec7f96eb70639bfcd2444fba7a5a44b64e6e1a1ba4ce5657b1fb70c7663fa"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/scorecard.json",
+      "bytes": 1004,
+      "sha256": "2d58582f8899aea6a8f82bc143f3a95680cc7dae7465ac616f47cabce992d70a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/scorecard.md",
+      "bytes": 808,
+      "sha256": "ada472e6357d2f08850feac0457a25a94c975912d2922cc57815abe2776346c8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/splits.json",
+      "bytes": 1698,
+      "sha256": "34316b30714ad9d51156cfeb85210c325a54d3c05a94a3aa0e5b5058c0ece8b6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_gp/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/data.csv",
+      "bytes": 393750,
+      "sha256": "c724b46fc39c06b331d590057199ff400ccfc0044faf00d282b6941140cf2db0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "c5c853d80d6a97f17d17c130e8ca67855d42f84e38c15084bd21d2a10c39996e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "94e4bf4717ce695f1d84f2735284664b742540aa3d3e857c69cb19711683d3cf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/identification.json",
+      "bytes": 537,
+      "sha256": "942093129ae80cad5b4cc702d2177cef780958868652e3a5ecf51771a28fb6a2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/interventions.json",
+      "bytes": 442,
+      "sha256": "7a1a793ceaf75711d68940e9f0140128cbea9892d19bb557e83c73bab651d797"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/metadata.json",
+      "bytes": 341,
+      "sha256": "4bc44ad3508983f1f0aec7d86a25059a8cf2a95301aa1ec24b3d4ecaf88b07db"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/observed_test.csv",
+      "bytes": 79011,
+      "sha256": "d77f3d0fb61bea8ebea788f8786e2c43f676de3dba036dbdb3d8c2c3a1dccaaf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/observed_train.csv",
+      "bytes": 237013,
+      "sha256": "59e6473a3d0f9b59a6a5c6c56a93b761f7ee4c2977dedc80dc4d68e267dd9a52"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/observed_validation.csv",
+      "bytes": 79040,
+      "sha256": "a55a0f316277746a1d07cd197d19fc88255e3fd0b24393e925eb63f1ffd72364"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/scm.json",
+      "bytes": 3267,
+      "sha256": "284c44ad92561b72d51008c041921b72aa0b9654faa890ca7db22d28ea31a3a6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/scorecard.json",
+      "bytes": 968,
+      "sha256": "58569b5c64bae1d23504f6c45f98eb29b0c73638b7f546dbb889da8891edaa8f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/scorecard.md",
+      "bytes": 759,
+      "sha256": "4d2783fbce93b7c3c65d46d252902f7f2b17efd63a7464a405323b2b8cb8b042"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/splits.json",
+      "bytes": 1715,
+      "sha256": "002a638ecb7e3b093c824b335c212b8bc4e847e96b3a58411b6eb94930ff4f54"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_heteroscedastic/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/data.csv",
+      "bytes": 195087,
+      "sha256": "e89de5bfb0bdab9f722e98a49d43ceaf4b5df7ecb75a6a56690257c262a2aa99"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "abf4cd919a649e073380b80af33f50eca5466af8dcb3a9220137c5f638a64074"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "29dfe4417a29e1453095205354a4f224e08c069529e07dbe6d68cc0b27afa076"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/identification.json",
+      "bytes": 525,
+      "sha256": "cb06b4571ba04af4eb81c786da5c2d34e217a7f20ed6300659575d9fe2992077"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/interventions.json",
+      "bytes": 430,
+      "sha256": "d0ed53f328f6c2b9dba2de587290044c6a90fec5a89ce373222dcb1d088eeb15"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/metadata.json",
+      "bytes": 305,
+      "sha256": "8ce2dea82f5925494dd4ebc44dd14dc0d7b496ec4df81462fa2f1b1cbc548d8e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/observed_test.csv",
+      "bytes": 39164,
+      "sha256": "ceeb16c7767317620d0a1aa9ffc34c848d0052a10c47c868b528c47d7821183f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/observed_train.csv",
+      "bytes": 117586,
+      "sha256": "dce96a8d6ab9e0610a9e32a886cf9a8fb1a9b9a84760a362cd980bd15e46c59f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/observed_validation.csv",
+      "bytes": 39234,
+      "sha256": "5aec876d6cd47e5a23123743a5b40fed33814bf64154a003f3cfb6350a94559b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/scm.json",
+      "bytes": 3243,
+      "sha256": "46aff75042c87b688b60cfdfbd37fc6081c18719f380eb6027b354549394ef4e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/scorecard.json",
+      "bytes": 1004,
+      "sha256": "483da09b6089dd8ffbdeb77474c483ece5f3334ce2408a18652c0a74ec7e4007"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/scorecard.md",
+      "bytes": 807,
+      "sha256": "2cebfe15924d99e0ea7f1710da5ff6499eeb40f19f4cb8823ea130441e672350"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/splits.json",
+      "bytes": 1699,
+      "sha256": "d7d03626a7b0c64bdea504e512c4cb92ce27a574b4ec848b65cfcf22b35de8a8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_mlp/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/data.csv",
+      "bytes": 193186,
+      "sha256": "be0dd2977ea5b6f03d98623da3ab04004e7f7964ea53fc8485c1f7f6669dc5b7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/graph_adjmatrix.csv",
+      "bytes": 461,
+      "sha256": "3007d159501f4ed30b11990aac48e9939bfff343aa57e5f7dbafa0f964620a91"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/graph_edges.csv",
+      "bytes": 74,
+      "sha256": "4a13f4a00f8ba0e10de803288405307b21feeaddf9d13c8d430605cae7494a3f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/identification.json",
+      "bytes": 532,
+      "sha256": "86062e78e3b706b3ea22168cf810f0403e66f379da7ac2459217aa32bbf0bf9a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/interventions.json",
+      "bytes": 437,
+      "sha256": "862115cc129b7f1f0add6ba6dc83bf5268644438e26c472d38f40368eb83953f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/metadata.json",
+      "bytes": 326,
+      "sha256": "d7388c2704e03240a8794d79c13e22f14e4d4dfa4715de09420f1f2e293dc0ee"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/observed_test.csv",
+      "bytes": 38835,
+      "sha256": "aecb1bac2137d56fac7c45b183f0a2fcc406c34194c692946389265aae018b95"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/observed_train.csv",
+      "bytes": 116381,
+      "sha256": "f5bcea407861dd08b2023d4c2d61339bfd225abc03cd19e39a4c5b2f7742a7fe"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/observed_validation.csv",
+      "bytes": 38817,
+      "sha256": "8d48192f465d8f0922d44e09cb9eb5e58a6eb01b8776a49462f12e2bec6532e5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/scm.json",
+      "bytes": 3257,
+      "sha256": "ab98734e47dfe618aed79da6de6d3e24c739eded9dbbbff046f27f512d67237c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/scorecard.json",
+      "bytes": 1020,
+      "sha256": "090d5db5833e7a91542b82ff344160743936bde2419333521f4eb1293656608a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/scorecard.md",
+      "bytes": 816,
+      "sha256": "10762dc48671c1aea46f4027dccc29a274dc260f16a10ea10d796bcf421f460b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/splits.json",
+      "bytes": 1706,
+      "sha256": "4c00f510fe28c70b1e891fac9aea01117e99f6a70b54c1c19879ca7674712673"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/10_vars_polynomial/variable_mapping.csv",
+      "bytes": 309,
+      "sha256": "b4cc7274df872113a4b5fdcc591944158538261ea15badfa80395a75f107d2fb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/data.csv",
+      "bytes": 781508,
+      "sha256": "23f630b3731801d2ba4c9adff1382193530ecf06f525e017ef65d024c6902694"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "7a0d1e538f5346b88ea55d5398db3f7079c98f76c895b01cbb1919ddc5687175"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/graph_edges.csv",
+      "bytes": 166,
+      "sha256": "1deef3053cdd5e10c9d17c6fe744b6a7b83811d2dfc50f31689d2291108154e0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/identification.json",
+      "bytes": 525,
+      "sha256": "50ff51a06338ac72e6e1cf79b7a237a6cc4e46417d73f78e73466aa911ed443f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/interventions.json",
+      "bytes": 430,
+      "sha256": "cd30814f936d122919b3ca007b47dd0305d20ecde2617ba77bdea4adf64c1c07"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/metadata.json",
+      "bytes": 305,
+      "sha256": "869a9446439d92dea40db45b1e23d65124b78cc633188229f8de6dec522a473b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/observed_test.csv",
+      "bytes": 155687,
+      "sha256": "5b92e4f86f9fd8c7800e19ea4c15fa113b1b53413533a86e664704644e311e1c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/observed_train.csv",
+      "bytes": 466870,
+      "sha256": "a8542e3cb1576b2393215987c2ebf325ea9a15eced6f2942e33ad011efaaa2e9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/observed_validation.csv",
+      "bytes": 155768,
+      "sha256": "37e3c376cd8b99159c071356928930d21dd473bcbfa9c0d3fce26971d37b3e0c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/scm.json",
+      "bytes": 5535,
+      "sha256": "9105e0127429c1a5768a6e3d84fbcdd46ec42d0c48e4f79a2ec40f0684e87e93"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/scorecard.json",
+      "bytes": 974,
+      "sha256": "b37cc444cfdaef843b16c9a0aefda325b7fcda4d89dbd0911f2020d9c16930b1"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/scorecard.md",
+      "bytes": 777,
+      "sha256": "8b7f2f3bef3a4f18c2d8cbdd519d9e324c9ef1161767cea480c7020ee27e678e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/splits.json",
+      "bytes": 1703,
+      "sha256": "a4cd7febf81e4f6950c4112d5ba00bcd7967c1e9fea4c77b9ded2bf6ce301cd0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_mlp/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/data.csv",
+      "bytes": 775786,
+      "sha256": "a49d9810907a743f04ec425f3e34f3d4671d289a823bed3d87bfef0af7be077f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/graph_adjmatrix.csv",
+      "bytes": 1741,
+      "sha256": "460af4ed6864849032544c9f4af85026f4967cfc26924b9237fdce69384d0fde"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/graph_edges.csv",
+      "bytes": 163,
+      "sha256": "96670821f2e37607ac6957653c03af3f0cf723d1ad237903a78de87f070c2551"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/identification.json",
+      "bytes": 532,
+      "sha256": "a3f3c09d2bd248ae921813aa7334ac76add3036d25f53effcca2ca8e55967e1e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/interventions.json",
+      "bytes": 437,
+      "sha256": "8ff468ff9c9b9c40230e511e783fb7d206f71b4623c414f968170ec95cf0c199"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/metadata.json",
+      "bytes": 326,
+      "sha256": "9ba2c4ee72625b22819f3b772b6330d93988bd7cd0844f79fb3bcf9ea4813371"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/observed_test.csv",
+      "bytes": 154465,
+      "sha256": "fa69f00554af934ca32e0dcebf7711b4eb2bfc18cd61dfd8d271867d62bf782c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/observed_train.csv",
+      "bytes": 463397,
+      "sha256": "398884e5939df70f8f3eab0f71f5ec07198aac507eff71f03f956a114eb65e64"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/observed_validation.csv",
+      "bytes": 154480,
+      "sha256": "ede5af2e2e819fd539fb97226bb8afdbf841e85432cc10812f20c8c49879d5f9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/scm.json",
+      "bytes": 5546,
+      "sha256": "b3dffd379f955d88da9935ca7776121035297fe6246340cd4943ce0ac4150f7f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/scorecard.json",
+      "bytes": 1018,
+      "sha256": "29cf9142e1c9da58823d42e766fa3347910419b4ca9ef56d609783ee9a037642"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/scorecard.md",
+      "bytes": 814,
+      "sha256": "efd34068065fe18b08716f1f1084d85411c807a8807e4c1c7f37f6d55388a379"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/splits.json",
+      "bytes": 1710,
+      "sha256": "70b2162363d753ae96c41b15b6856ebb71acdc5a762b035ceaa6482f00bdbaac"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/nonlinear/20_vars_polynomial/variable_mapping.csv",
+      "bytes": 609,
+      "sha256": "92d0e2045c2c241000c2b8e130c348c200ed9bcba51ade7d15eedfae909ad7d6"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/data.csv",
+      "bytes": 412185,
+      "sha256": "9f525cab6d716d8009d6e5a1993870e362e2327093f11f2a8faf291a155f15ea"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/ground_truth_links.csv",
+      "bytes": 3383,
+      "sha256": "9f42aa4769a060b8118a5b9a20371a31b31265d0040e832c7903bcb9a9a4445c"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/identification.json",
+      "bytes": 542,
+      "sha256": "83cc41618c5be5ce1779ab0a23bbaaa622138c226ee3c8d9882437cbad5f4b02"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/interventions.json",
+      "bytes": 379,
+      "sha256": "c39f1abdefc589c21329b9f0cd1c6178ef0ec4c81dffdc92c969937ca32c671b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/metadata.json",
+      "bytes": 14057,
+      "sha256": "e5274b1be375115e2deae978a4fe337fae3a7f18285185799c4f7c6ab37c6a26"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/observed_test.csv",
+      "bytes": 92662,
+      "sha256": "fffe0d625eede5b475e43e749a9a0fa9d099cf630fef244dade8d5357c40e04d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/observed_train.csv",
+      "bytes": 233827,
+      "sha256": "de3bda49a88a60907f9b72486eeba115dca7afb46de3c5589a22283131e99263"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/observed_validation.csv",
+      "bytes": 92587,
+      "sha256": "8febbcdf00a72d7153fee56d467fa4b9131ffa096648d4078362b86633b88703"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/scm.json",
+      "bytes": 17548,
+      "sha256": "d00d76cf57985d28199f0f5fc2382d142bb9403b5226ec097128f97bbfa4ef81"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/scorecard.json",
+      "bytes": 585,
+      "sha256": "83b897a54ce4313066b7e7a6cafcfd4f8c9f58eac61ab9d85aae2b1b8fd46cd3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/scorecard.md",
+      "bytes": 424,
+      "sha256": "6ee92ce7ece47cfc50befdc30b47c9a0dcd6cf887183e7c8d056c40b3771bcac"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_2_lags/splits.json",
+      "bytes": 1723,
+      "sha256": "13bff2ab406593e18c674797c01a4e77adb7bc18499249f39013b1f902e45dfc"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/data.csv",
+      "bytes": 418761,
+      "sha256": "db58345cf2d764475e0616df12de8a922e38f1bf016d1de140f15ef78a63b3a3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/ground_truth_links.csv",
+      "bytes": 4101,
+      "sha256": "b055f1c475ff6d8ec6f79fd631799f3b4a0460937ccfc32c5194a56edc943c8e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/identification.json",
+      "bytes": 542,
+      "sha256": "32b47afae4e04ab167a9c0133cf22e3f7fc8d767a8ad2ef5a627b16d83a79ac8"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/interventions.json",
+      "bytes": 379,
+      "sha256": "f09184b95ddd993f6debaca463e359a5fa8d79f53ca01b87fe8d7221ce9a8c46"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/metadata.json",
+      "bytes": 17071,
+      "sha256": "66884fb72cb93da47c1063013723e617ea93fa777ffa0d6dbe7198f4f224c28a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/observed_test.csv",
+      "bytes": 93119,
+      "sha256": "09614bdd63c63114917456b62568da809d5624edde556df4d1d6533bdfb6c131"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/observed_train.csv",
+      "bytes": 239486,
+      "sha256": "993f2fdfaec501b30442af5381f886ce4148c38f28bcfff39f48657135476098"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/observed_validation.csv",
+      "bytes": 93198,
+      "sha256": "0cad45c5ae707d939ce732d6ec3ab161c31b63cb95b3cce2cde20c20d22ec410"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/scm.json",
+      "bytes": 20877,
+      "sha256": "29fb12c4b9919e1a34311a42d33cb0cfacd4a3809ea266011256bbdf4e8ec050"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/scorecard.json",
+      "bytes": 614,
+      "sha256": "fcd531721564177a90cda579bdcbc758c39a0e09eaec54854a938b3df2b81372"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/scorecard.md",
+      "bytes": 453,
+      "sha256": "7b77e320336a8bae00fc1c61fa4932c17969ca2c261c7e404d4def82a6539547"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/10_vars_3_lags/splits.json",
+      "bytes": 1723,
+      "sha256": "40f82fb97757e96e8660c9e4ff4a6ec0300594cf2ccc5179b2c43a19f19f1545"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/data.csv",
+      "bytes": 98371,
+      "sha256": "22b7bbc1a1408b3edea51608d0d694eabd979e450a5c2fe1940c859d5e6ca666"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/ground_truth_links.csv",
+      "bytes": 934,
+      "sha256": "4d922a5ef5167e3748a91407612be24650b1d56bdb2306bc4dac956216f238c7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/identification.json",
+      "bytes": 541,
+      "sha256": "605ab58926f6b4548f63ad3e9ee6cac21fa3efaeef238b5b0c0e29e9435336d5"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/interventions.json",
+      "bytes": 377,
+      "sha256": "ee9cc731ddff8ffb2b64e3f13a3c2227a313c808fe25bfe0e780217f9ff8e7af"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/metadata.json",
+      "bytes": 3980,
+      "sha256": "3c63023d9e77288726ad0fd299f0cfa8f92adb77344d3fb122385385a32a6fcb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/observed_test.csv",
+      "bytes": 20159,
+      "sha256": "4c5fb06c86816f0066585058018f5522abf3830f922787f7915ca6ad82fba61d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/observed_train.csv",
+      "bytes": 60253,
+      "sha256": "62af26e4bda4bbf38dcf1efd8f804752f296b7a8454591f6d643d38f20917e9e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/observed_validation.csv",
+      "bytes": 20102,
+      "sha256": "0775ad20471e1ba2bc4e828af3135c4f682a75e290b1ab6f063633ba63a69c9f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/scm.json",
+      "bytes": 5773,
+      "sha256": "e3d5aa258c761810894ab1888c1a74ff2957150d8afaa77eb49b0fdc64a785b9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/scorecard.json",
+      "bytes": 595,
+      "sha256": "818a16c758b5491aafcf6ee31c94f1dea037dddd8895a33ae11bff167455d08e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/scorecard.md",
+      "bytes": 435,
+      "sha256": "dc1da691d5311bd0ac80c79e8dcda645a392794900e1da2ac10ab072295f6c8a"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_2_lags/splits.json",
+      "bytes": 1716,
+      "sha256": "7b80545ad46dc7f33e94172908f0a04e9300f4649988cd3ed62632acfe6bc4d9"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/data.csv",
+      "bytes": 98863,
+      "sha256": "006f90b6707d944ac6ca395ce1b4a1138e3ef6eee8fb98b279d9c51ed024a06e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/ground_truth_links.csv",
+      "bytes": 1103,
+      "sha256": "1a1aa1e5094c4b5d0a3c714856d578b8e3b66eaa4ae169310b2fb988e3f05754"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/identification.json",
+      "bytes": 541,
+      "sha256": "a47e689ab962fea9c752825617d03a31bc3563af9260eb87ccc5218535b926ad"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/interventions.json",
+      "bytes": 377,
+      "sha256": "d418f5250f67779d6eb7aca4104fc6f38c54929556e113ab8121af060aa0855b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/metadata.json",
+      "bytes": 4641,
+      "sha256": "d61c4994202bac2b590a608996809df1d28dc5b52ae7d86a48ac5639cd416e82"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/observed_test.csv",
+      "bytes": 20193,
+      "sha256": "6edee714caf55fba33f41225dbb5c477a7793744e735f36325dfac4f6eec8fc2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/observed_train.csv",
+      "bytes": 60351,
+      "sha256": "bab328f2cd4e7df75af5d91f8fbed565df5527c9b7815292f6666efbb828ae75"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/observed_validation.csv",
+      "bytes": 20155,
+      "sha256": "410d57a2fc7567e8cbe49297cfa5f3fadf464682d8d27239245c776fe0d3fba0"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/scm.json",
+      "bytes": 6493,
+      "sha256": "47207c6e9a6728d2d123e8c07b3660e250c44ab2bad11217b1ee788bd5f59b16"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/scorecard.json",
+      "bytes": 594,
+      "sha256": "275170ef04b1ba9dbd9563e55407f84452aa33fcccebb791f710e478ecb738bf"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/scorecard.md",
+      "bytes": 434,
+      "sha256": "c12d615baf4eeee9b89bf39a2c97b227e1075cc8245a83696a46424d0098e2ae"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_3_lags/splits.json",
+      "bytes": 1716,
+      "sha256": "56f67f06cdb89940d68af84e29115f15d824035fc3cad834d87834413dfa7ebb"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/data.csv",
+      "bytes": 100178,
+      "sha256": "4f947d3b535ed461517df2c74fd5d566bd041c1621dd87156aeae29490c91c1e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/ground_truth_links.csv",
+      "bytes": 115907,
+      "sha256": "197984026ec50108f0fb7bbb9206358d58b9dd50a147467a1f32f05f282f9d0d"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/identification.json",
+      "bytes": 547,
+      "sha256": "18532b83dc938bf95d4a1dd5bf67e64f16e261e01475d1a974e23bc6e18e6239"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/interventions.json",
+      "bytes": 385,
+      "sha256": "e8678a4fe6c6f48282cf97d0026906dc7d29c7d6a130c628cf0b310c5091095e"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/metadata.json",
+      "bytes": 731467,
+      "sha256": "af2ce8388159fdcb54d292eb35d0e4ecd6c8623b8adfd15ec9c5d95014ce544b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/observed_test.csv",
+      "bytes": 20159,
+      "sha256": "236c6a781bf301d281367f84f56a6a3999d0a6e33afbddd230536e3984b85a30"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/observed_train.csv",
+      "bytes": 60353,
+      "sha256": "4230c1e929efabf0c5c2a6d1b6e2d2fb34d2b76fcedeb54ee0d29956ff6caba2"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/observed_validation.csv",
+      "bytes": 20134,
+      "sha256": "244e49c01d7f7723d4e9011ca8719521bfa3a9125386a0746ad252178ae4c9e3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/scm.json",
+      "bytes": 828770,
+      "sha256": "d6b60b45e27a9b0be0f0e15fbb6f5cc32cc641ebe5952ef23928ff08961d9f78"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/scorecard.json",
+      "bytes": 575,
+      "sha256": "b7dba15b165c477bf16e13642ccc1d55545bec171c5532de3e45987a915b3142"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/scorecard.md",
+      "bytes": 409,
+      "sha256": "8cdeda9a19f564f75ef24b77360469fdeb37989c8c39f807450373c97093c927"
+    },
+    {
+      "path": "causal_benchmark_synthetic/datasets/synthetic/timeseries/5_vars_nonlinear_ts/splits.json",
+      "bytes": 1722,
+      "sha256": "1160e40cd29b8b9e9804559788391e503e775636afb7a512646c2e8618ca8c66"
+    },
+    {
+      "path": "causal_benchmark_synthetic/docs/DATASET_CATALOG.md",
+      "bytes": 12051,
+      "sha256": "65a3a4f001d8dc0dc635ca45b88c826f0e423b8baa4e6bcc889f1aca895717c3"
+    },
+    {
+      "path": "causal_benchmark_synthetic/docs/METRICS_GUIDE.md",
+      "bytes": 8808,
+      "sha256": "cec92d9516b0ccc747a1116b67306d097707582fff6df1ab3ab5312a852a7d03"
+    },
+    {
+      "path": "causal_benchmark_synthetic/release_index/dataset_index.csv",
+      "bytes": 9014,
+      "sha256": "3ae8ee0cba0b06a30980e6df63affac98a9791890bfc65aca6aadd438612a522"
+    },
+    {
+      "path": "causal_benchmark_synthetic/release_index/known_issues.csv",
+      "bytes": 1968,
+      "sha256": "48be17a7f19acf13fbadc53367d9333575e184c73e3a451b4d7a0ef30943e950"
+    },
+    {
+      "path": "causal_benchmark_synthetic/release_index/release_integrity_checks.csv",
+      "bytes": 3676,
+      "sha256": "284b8a729c907aba440bc00c8e5dff258c6dddd6c99c41b2133d344479193115"
+    },
+    {
+      "path": "causal_benchmark_synthetic/release_index/task_index.csv",
+      "bytes": 4990,
+      "sha256": "4d2e5e0b9b3dc44f84a0275d9d959611abac8f9ef56adcc8cee94d44ddd1e48b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/results/scorecards/discovery_baseline_metrics.csv",
+      "bytes": 2390,
+      "sha256": "c2f97a30b9f7f8338b83c875d96c50f5ddb3daff5d2488ba7c4a78e114b88819"
+    },
+    {
+      "path": "causal_benchmark_synthetic/results/scorecards/inference_baseline_metrics.csv",
+      "bytes": 1761,
+      "sha256": "915e0e945acb0b7ac92744e3692a8ba72c6728e23baa3f6ca22c5da530a20339"
+    },
+    {
+      "path": "causal_benchmark_synthetic/results/scorecards/scorecard_summary.csv",
+      "bytes": 2965,
+      "sha256": "151ce63503508376c8618a7b62be6d4464ec1ba5f5345a5b6bcd85783e02e85b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/results/scorecards/timeseries_baseline_metrics.csv",
+      "bytes": 523,
+      "sha256": "947d583f5d4f75710ca849bcb01675ad880b6fd4a21077ae681ae3c280c64ed7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/results/validation/validation_report.json",
+      "bytes": 45596,
+      "sha256": "160ee246061655ffbb360a7251c6f658349189530943f31591b13915e344f2b7"
+    },
+    {
+      "path": "causal_benchmark_synthetic/results/validation/validation_report.md",
+      "bytes": 3631,
+      "sha256": "e5fc48b0cf5e1e5686b8feb86258c09ae5cd7526d53f5664c464d1424c36917b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/00_validate_benchmark.py",
+      "bytes": 13543,
+      "sha256": "1bb1ae26f92b2d23b8b47d490d2ef192e077794fdd6e0a4d67c0d1ed2dcb1d39"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/01_generate_literature_based_datasets.py",
+      "bytes": 26249,
+      "sha256": "42f25ed4958125d99daf97c932affd32c7c1d8bc941345b975f87e89f0e3c553"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/02_generate_synthetic.py",
+      "bytes": 20401,
+      "sha256": "c52627e07ae670867fac026623929f15a5f7e8096a1ba1b3221141912bc1f1d4"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/03_run_discovery_benchmark.py",
+      "bytes": 21571,
+      "sha256": "ea1416203fe3d596482306ce392109144e3828171c48fb0c8169bd120498d97f"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/04_run_inference_benchmark.py",
+      "bytes": 23690,
+      "sha256": "488dca1e5a12c5de15274a6217ba97a62c248413b06bf1b1f74f69cc1d3bac59"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/05_run_full_pipeline.py",
+      "bytes": 25699,
+      "sha256": "272f41ac640887e0f1f943a8dc1684bbed2e5d0a761404eb9ec4005f276f419b"
+    },
+    {
+      "path": "causal_benchmark_synthetic/scripts/utils.py",
+      "bytes": 35079,
+      "sha256": "87f6894e26f05c140ad93c397b8b1d2029e02c5c6d4d44a76dcd2f1b671cd76a"
+    },
+    {
+      "path": "causal_benchmark_zoo/CITATION.cff",
+      "bytes": 384,
+      "sha256": "15e40e50a36469f4f1d5581d43e9b8c46d9785bb3adc44ec0f73475ac3617f98"
+    },
+    {
+      "path": "causal_benchmark_zoo/CONTRIBUTING.md",
+      "bytes": 885,
+      "sha256": "f1603657c6c62584d180ed32142822f9f77877455be66129bd1a0d9fc11823df"
+    },
+    {
+      "path": "causal_benchmark_zoo/DATASETS.md",
+      "bytes": 2162,
+      "sha256": "c5fc10c161bec57771dc7fb6490498a126ea9ee9804fa8cb7aada683df54e153"
+    },
+    {
+      "path": "causal_benchmark_zoo/LICENSE",
+      "bytes": 1091,
+      "sha256": "0825b15dacd840e33901754bf678031a1aebb863cd1281196ffed77cad154e6d"
+    },
+    {
+      "path": "causal_benchmark_zoo/LIMITATIONS.md",
+      "bytes": 1275,
+      "sha256": "83d31061c3ddb11d175c67d78923e07a9b8ebb28b885941d2b7e085d6ca6b9f0"
+    },
+    {
+      "path": "causal_benchmark_zoo/README.md",
+      "bytes": 3170,
+      "sha256": "4f29f944becc680265b197ff7607fbfef1fd204f0c66375e755212e05df6f54f"
+    },
+    {
+      "path": "causal_benchmark_zoo/audit_outputs/stage7_final_reference_issues.yaml",
+      "bytes": 149,
+      "sha256": "d14c50c70129072d91e711b096679192f227034328db0ae36254249df310e04f"
+    },
+    {
+      "path": "causal_benchmark_zoo/audit_outputs/stage7_final_reference_readiness_matrix.csv",
+      "bytes": 1308,
+      "sha256": "f6f9c8baac0b280fb288796678bafedbce085c34f300d6d8d6c3069509144bf0"
+    },
+    {
+      "path": "causal_benchmark_zoo/audit_outputs/stage7_reference_issues.yaml",
+      "bytes": 113,
+      "sha256": "6aa4f68b0b6bff34a3aedcb4fc9dcac1a413f8fb5aa74961a7628255cbfcf8ee"
+    },
+    {
+      "path": "causal_benchmark_zoo/audit_outputs/stage7_reference_readiness_matrix.csv",
+      "bytes": 1208,
+      "sha256": "ea2bac4518c8acd8215975d79bee1e6f96e82799ffb200ec9aaf983c9fe007bb"
+    },
+    {
+      "path": "causal_benchmark_zoo/audit_outputs/stage7_release_readiness_report.md",
+      "bytes": 3307,
+      "sha256": "fed92f3f01348aa3c98099d25316b6dd0cfaa468bcf5d56a1e7203c7dd7e8c11"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/graphs/adjacency.csv",
+      "bytes": 3325,
+      "sha256": "1a723645ba8fb8dd7126e2eb8d14adf1dbb890020fffb1ec5ba5d6db46f82e20"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/graphs/graph.dot",
+      "bytes": 1674,
+      "sha256": "8e045bab0710923ad6e62b698d7c2ee297ec43c9792b54d37790a69155e7f580"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/graphs/graph.json",
+      "bytes": 5576,
+      "sha256": "936aead302b0a0fad2824500c60d8176f6ab33440a20c72535ae551a0d184433"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/ground_truth/graph_reference.yaml",
+      "bytes": 417,
+      "sha256": "02f15b641f9ab50e76308ed4f92be8a035e1bd6419dab20ca300504e3e5af369"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/manifest.yaml",
+      "bytes": 1567,
+      "sha256": "c6767655d1a44c8c5fe42888e28a1ebe4b282f24c0fbf5dc3ab4d89b483bc67f"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/raw/alarm.bif.gz",
+      "bytes": 1832,
+      "sha256": "f5860caa7137b5817e0c4f169cce0f1451ce6c246b96f5ce4fb4a8167993be29"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/scripts/download.py",
+      "bytes": 2347,
+      "sha256": "a3e7774c65deb0cc3602a471596b70d9d972661c3c73e0059c8de3061d5c0018"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_alarm/scripts/process.py",
+      "bytes": 5613,
+      "sha256": "095eeeb7978816ec7d38416f8f0bc53653a9c4af4878f2bc4bd83fe8c6729d1d"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/graphs/adjacency.csv",
+      "bytes": 215,
+      "sha256": "fd89aa5e3b8fabc610deff555cf4f6a92d6defe2cc9e7fa5c98d53342a1e9caf"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/graphs/graph.dot",
+      "bytes": 267,
+      "sha256": "2fd6a3bc6f1f61b1882b6912b95725d32c9356d2592ff258c099291aaa1ee2b4"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/graphs/graph.json",
+      "bytes": 1316,
+      "sha256": "693eb466264ac8fe3d3f5f4a49543a450560614b4a96bad8aad6a44d1ce13a1f"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/ground_truth/graph_reference.yaml",
+      "bytes": 413,
+      "sha256": "43f936e60748645c2263a769fddbff2f9797ed577dad96c713fe3e9553169ec2"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/manifest.yaml",
+      "bytes": 1442,
+      "sha256": "f586d48f32624ac7ab708007a393b2b3033b82006ff44d557aff4f9b542f95d8"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/raw/asia.bif.gz",
+      "bytes": 310,
+      "sha256": "7d5e7b8549834824c1b05f367eb7860fa3fca3adaf3649f0c7be6035af197197"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/scripts/download.py",
+      "bytes": 2344,
+      "sha256": "d80b8a1bff607a1753b5005046aa6cebb5da7422956944918894e5e8be733c95"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/bnlearn_asia/scripts/process.py",
+      "bytes": 5608,
+      "sha256": "e742208df5807b7216aefba60774adc9f971497cb0cc2ff9e4e9d81e611b56d7"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/csuite_lingauss/manifest.yaml",
+      "bytes": 1959,
+      "sha256": "66902f081dd48664f07d6e8631afc14230653ee50098230100202497b9605fc1"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/csuite_lingauss/scripts/download.py",
+      "bytes": 3267,
+      "sha256": "cc482de2fd87e137394771a40d6dc220894fed4e1e40c977e21af985c889a976"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/csuite_lingauss/scripts/process.py",
+      "bytes": 167,
+      "sha256": "1c3ef18907acb48375143a9790f1830dbb941aaa1f074fa7624746155ba6060f"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/graphs/expert_dag.dot",
+      "bytes": 491,
+      "sha256": "c1ff930b1d9ab95b005bbff78f53444b9d3fec2ba8de8b8dddefcb633f10e125"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/graphs/expert_dag.json",
+      "bytes": 1979,
+      "sha256": "d9d24cc8b6dd621759d1daa459bec712bd23fb5a86fdb48dabef48ba9113d04d"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/ground_truth/ate_reference.yaml",
+      "bytes": 690,
+      "sha256": "7297be8447f73e13a9a14de44e8490256b22b981fbb2aa830490e145c7b622ff"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/manifest.yaml",
+      "bytes": 2968,
+      "sha256": "66e77f8e6f0bea6a21577e731f83b5919dc4cb52a0b81107aa12f042cf004199"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/processed/lalonde_nsw.csv",
+      "bytes": 15245,
+      "sha256": "4c773801a2af3889277036b5dab929c556c7e92ae5b20833f052ded3cc6b092b"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/processed/lalonde_nsw.parquet",
+      "bytes": 12198,
+      "sha256": "8959b2b14531dff6c06834ca69818fc8b69a1da6572826112b964f89da4474c8"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/raw/README_manual_download.txt",
+      "bytes": 425,
+      "sha256": "98a7355e791732fbf94a8487340dd9bccca746d947fdce913aae4017878ac87c"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/raw/nswre74_control.txt",
+      "bytes": 41860,
+      "sha256": "a1364cea459d953dc691a667d99194b4ad335d6d550354fe23a5d2dc58d729b5"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/raw/nswre74_treated.txt",
+      "bytes": 29785,
+      "sha256": "e7b742fe0ff07a0f45e129b4ff108bb9611cd83d53604732c48a8a0a3e20eda3"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/scripts/download.py",
+      "bytes": 2356,
+      "sha256": "448db07de2da349b64bb3dba7d88db0fb286207c32073da2f91251f8a6e23a13"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/lalonde_nsw/scripts/process.py",
+      "bytes": 6507,
+      "sha256": "b9b8ba947cad1f9f53a52aafe133e8331d3049e3c20333d620c182bcc4c76ab8"
+    },
+    {
+      "path": "causal_benchmark_zoo/benchmarks/registry.yaml",
+      "bytes": 99,
+      "sha256": "2adf360e40fd86e1d3a0fba99e33c60d77cd4d4a47bd79fda591c8805ceade48"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/__init__.py",
+      "bytes": 454,
+      "sha256": "2f718e508900c454b1c96f9c4eb424b8c1fea47a82c21b5f0be1f5e24b2ef496"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/adapters/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/adapters/dowhy.py",
+      "bytes": 742,
+      "sha256": "4ccb4a2f10bd3fd2509abd2b07ded60eee95e96b340933a473145f9b1f9f1028"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/adapters/econml.py",
+      "bytes": 560,
+      "sha256": "8e585a0fbcbbac8cecd65e65e9000645811003a41852e59b631ff2f4b110a42e"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/fetch.py",
+      "bytes": 6141,
+      "sha256": "8d87b936f5680a5d6786f02ea7c7eed9b468a4860b8acb9c75b23794c7c8ed83"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/graph_io.py",
+      "bytes": 838,
+      "sha256": "9e13811e50bc82d67470549ec4fcb40711a1ddde41778c82e11376e57368905b"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/graph_metrics.py",
+      "bytes": 3046,
+      "sha256": "688aaa558f823c0116e51200a8890f5cf194f90d75d0c6de023801fee5786fca"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/loader.py",
+      "bytes": 2410,
+      "sha256": "b5540aa50f879672ddc9d6bd236e691cdbe1776d70b85f0b86c9cc000d2914af"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/registry.py",
+      "bytes": 2207,
+      "sha256": "e1966cc9f753145e98c1a8da2cd3c279c300f6df4ac7031026cfd6c02b25fa72"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/types.py",
+      "bytes": 742,
+      "sha256": "6d909996f8af89cde9fc1eb91e0f859f3b25f8ea7db9c98a391d561f48bfe2a1"
+    },
+    {
+      "path": "causal_benchmark_zoo/causal_benchmark_zoo/validation.py",
+      "bytes": 4728,
+      "sha256": "da1383072b8b8920fb34109a50dee59a2536be1ad86da16f274eb8a28cd52c79"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/adding_a_dataset.md",
+      "bytes": 1272,
+      "sha256": "0b2ce20539c02d6471e660f697be63f09b6ca49166284bc3630e72f3636d4d6f"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/documentation_report_entrega7.md",
+      "bytes": 787,
+      "sha256": "acde9e80d136f3ee8e5587922b2370afd65165ebdf32d2babf44e9d82f624da8"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/dowhy_econml_integration.md",
+      "bytes": 1191,
+      "sha256": "43f4cb9f9dee3183aab534e25fae0c0f6d732caa61765a8a9e8daf522606bee4"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/download_report_entrega4.json",
+      "bytes": 1137,
+      "sha256": "8eac609a588ae831e20d04cfe532a714129f9548f9760593d1bba9afb18fe114"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/download_report_entrega4.md",
+      "bytes": 1229,
+      "sha256": "bec4d9434b177451a0bf6191f3f5d19e8a454566b479b05fb382f5502a302003"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/graph_metrics_entrega6.md",
+      "bytes": 1211,
+      "sha256": "7afdd329dc3186f503bf9fa14b4eef6af6e0717a5cc6f832c48fa67d57876923"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/graph_metrics_report_entrega6.json",
+      "bytes": 734,
+      "sha256": "3ea005a3c508db4e03196483447f7e49f5752809b265cd26cf2e118fa9e0db70"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/ground_truth_taxonomy.md",
+      "bytes": 809,
+      "sha256": "d89b45a165aef32528aab3f2a9d4115721f13149730235bfec75291ad9f0e355"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/manifest_contract.md",
+      "bytes": 1606,
+      "sha256": "fc9ea2160379d98b703923acc0a4142207ba51c85a32e7609bc85480856f55ed"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/processing_report_entrega5.json",
+      "bytes": 1985,
+      "sha256": "d5a3849b28c1887861b81a2be6cf64f59ffadd1b506b5f23daeecdd36add7815"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/processing_report_entrega5.md",
+      "bytes": 961,
+      "sha256": "a6a3480031d0ae257cd88152520350dd5bf27921c7eb33a0781a294e9894e2ef"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/public_download_adaptation_report.json",
+      "bytes": 1025,
+      "sha256": "32d0fc6b1d5a1dd3254047866ce9ec5ffee7ad0159fc02193254b721f5698a8d"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/public_download_adaptation_report.md",
+      "bytes": 965,
+      "sha256": "bd1a82a6b2005142d334aeb8ec399d66a51c11deb567319b3b172dd179a85513"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/public_download_strategy.md",
+      "bytes": 1704,
+      "sha256": "e1b948c5764efb2ecf6810a2779438fb02d9018038cb89df66eefc4a11597398"
+    },
+    {
+      "path": "causal_benchmark_zoo/docs/quickstart.md",
+      "bytes": 1501,
+      "sha256": "0d1445ac94127347e70982123517de45b8c139951f9b23ded4d3e7634f304d07"
+    },
+    {
+      "path": "causal_benchmark_zoo/examples/evaluate_graph_bnlearn.py",
+      "bytes": 593,
+      "sha256": "e3ff82206894f5072d89e8e2e637727d968c4e2d3a15760c341161c14ed3969b"
+    },
+    {
+      "path": "causal_benchmark_zoo/examples/list_benchmarks.py",
+      "bytes": 95,
+      "sha256": "558474220d7c8125346d7250abddd284ab52a036a0c81676f65b769e488654ab"
+    },
+    {
+      "path": "causal_benchmark_zoo/examples/load_benchmark.py",
+      "bytes": 391,
+      "sha256": "7970a5a25129a158a3140a4ec4ebd791f757d137474652205b0cea9817e70e8f"
+    },
+    {
+      "path": "causal_benchmark_zoo/pyproject.toml",
+      "bytes": 638,
+      "sha256": "0da63fe2cf9294bc816d12786842973caac4b3c96a3521c5cebe0ad0e1f8973e"
+    },
+    {
+      "path": "causal_benchmark_zoo/schemas/graph.schema.json",
+      "bytes": 868,
+      "sha256": "f52567cfcb2719c3c9889f8b11de3276df8e0fcbeb9135b19021feb5dd2a8218"
+    },
+    {
+      "path": "causal_benchmark_zoo/schemas/ground_truth.schema.json",
+      "bytes": 1309,
+      "sha256": "eed7524f581deb2058b7340db3a2d1bec2733f79daf6796dc9a945c0cb5d85b8"
+    },
+    {
+      "path": "causal_benchmark_zoo/schemas/manifest.schema.json",
+      "bytes": 7071,
+      "sha256": "f9a06e3aeee103d4d863a7f38938eb84ea75166314386ff04660f9fdd68f8ef8"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_cli_inspect.py",
+      "bytes": 2614,
+      "sha256": "4f866b6de1a1320ac82779a7e9038d276f9c3519d0d63ef907efbdadc50456db"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_documentation_files.py",
+      "bytes": 519,
+      "sha256": "bb1ae7e68b84d1e1effb23dcc2082d0ff54fe701f52c383fab6010e7653fc719"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_graph_metrics.py",
+      "bytes": 2486,
+      "sha256": "fe8b96abd83cf47b79bdf7364771a53cd54ca10ea077f76267598538df8d86a8"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_graph_validation.py",
+      "bytes": 380,
+      "sha256": "73167b806b42ccbbe53f919f7ff62059b37430f8d34fe0fb5370530749c10f3d"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_ground_truth_schema.py",
+      "bytes": 269,
+      "sha256": "c528ab77cc5cef1dc8c755f7b4d046ae6b1e054afdcd06dd316533781578f0d8"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_lalonde_public.py",
+      "bytes": 2220,
+      "sha256": "c771f8e8a5a4c2df1c1b8905d978c00619ebe6f76eaa3c37b75fd7f6e5e92b95"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_loader.py",
+      "bytes": 321,
+      "sha256": "ebd36eaabbea05f1054641f7cb5e0c8aaceeca8d04ced20f7e74d41c5fce26e9"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_manifest_contract.py",
+      "bytes": 1176,
+      "sha256": "e33904f50dce464b863daec189657c914149f0d3bd6eec009ef22ebac514093f"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_manifest_schema.py",
+      "bytes": 242,
+      "sha256": "d28007c50c2958cf39f8d656647c0003a344bc864bbab3f7613e47e626cb0b43"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_processed_bnlearn_graphs.py",
+      "bytes": 3278,
+      "sha256": "05518744e14a22e960086c7db54c734743f42f2b10c7b6ffd0646d3a0516b2c1"
+    },
+    {
+      "path": "causal_benchmark_zoo/tests/test_registry.py",
+      "bytes": 809,
+      "sha256": "a74240901e2465dc893f781c13acc76969fa143366272dcb4830a9703e0356f5"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "bytes": 203,
+      "sha256": "3fed25df31bd01d3b91a4a240ff1f23914ce1d094a4f1e513edc9dfb949ca641"
+    },
+    {
+      "path": "requirements-optional.txt",
+      "bytes": 233,
+      "sha256": "836f0610d98096d380263b59a3f3a8b7ccd28965e57e8cd6019c870cea6d429e"
+    },
+    {
+      "path": "requirements-py313.txt",
+      "bytes": 266,
+      "sha256": "6a896b581b67c55096a9389f1223b6e4c66ecb087947bddbb0980cba40fe80f3"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 281,
+      "sha256": "5ce0f76c0668b39c4baab71f4c02554e93cbcfe13b183be0ce876e2659e9830b"
+    },
+    {
+      "path": "scripts/generate_release_manifest.py",
+      "bytes": 3115,
+      "sha256": "3d3cbba40595da3291f39773c85cd557896b3e226b0761c20615ef0986c4ad8c"
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "bytes": 6809,
+      "sha256": "9641a7d5c58fb5eee0df8d1f0a0d6da89155cca387d0756ded39dec4c6d22656"
+    }
+  ]
+}

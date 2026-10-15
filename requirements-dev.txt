@@ -1,0 +1,7 @@
+-r requirements.txt
+setuptools>=68,<81
+wheel>=0.41,<1
+pytest>=8,<9
+
+# Documentation/link checks are intentionally not required by CI; the release
+# validator has no third-party documentation dependency.

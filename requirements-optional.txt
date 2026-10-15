@@ -1,0 +1,11 @@
+# Optional algorithms and integrations. Install only the group needed by a run.
+# Some packages have platform- or Python-version-specific wheels.
+causal-learn
+lingam
+# gcastle
+# dowhy
+econml
+# causalml
+# tigramite
+matplotlib
+seaborn

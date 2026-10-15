@@ -1,0 +1,11 @@
+# Text files use stable line endings in GitHub diffs.
+*.csv text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+
+# Benchmark data is versioned as ordinary Git blobs; no Git LFS endpoint is
+# required for this release. Compressed upstream archives remain binary.
+*.gz binary
